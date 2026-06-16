@@ -1,0 +1,10 @@
+{
+  "name": "ВалуПро Експертни Оценки",
+  "short_name": "ВалуПро",
+  "description": "Независими пазарни оценки в България",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#f5f6f8",
+  "theme_color": "#0f1d33",
+  "icons": []
+}
