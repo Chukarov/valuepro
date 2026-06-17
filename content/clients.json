@@ -1,0 +1,120 @@
+{
+  "clients": {
+    "bg": {
+      "eye": "Клиенти",
+      "h1": "Нашите клиенти",
+      "hp": "Доверието на банки, корпорации и институции е нашето най-голямо постижение.",
+      "b1": "Банки",
+      "b1h": "Банкови институции",
+      "b2": "Бизнес",
+      "b2h": "Корпоративни клиенти",
+      "b3": "Държава",
+      "b3h": "Институции",
+      "banks": [
+        "Банка 1",
+        "Банка 2",
+        "Банка 3",
+        "Банка 4"
+      ],
+      "corp": [
+        "Компания A",
+        "Компания B",
+        "Компания C",
+        "Компания D",
+        "Компания E",
+        "Компания F"
+      ],
+      "inst": [
+        "Институция 1",
+        "Институция 2",
+        "Институция 3"
+      ],
+      "reh": "Референции",
+      "reh2": "Какво казват клиентите ни",
+      "title": {
+        "title": "Клиенти – Valoris Asset",
+        "desc": "Банки, корпоративни клиенти и институции се доверяват на нашите експертни оценки."
+      },
+      "quotes": [
+        {
+          "text": "Изключително задоволни от професионалната работа, извършена с високо качество и в кратък срок.",
+          "name": "Име Фамилия",
+          "role": "Длъжност, Компания ООД"
+        },
+        {
+          "text": "Благодарни сме за ползотворното сътрудничество и ще продължим да работим заедно.",
+          "name": "Име Фамилия",
+          "role": "Длъжност, Компания АД"
+        },
+        {
+          "text": "Екипът извършва всяка експертна оценка с висок професионализъм и в договорения срок.",
+          "name": "Име Фамилия",
+          "role": "Компания ЕАД"
+        },
+        {
+          "text": "Компанията работи на най-високо ниво от гледна точка на професионализъм и коректност.",
+          "name": "Име Фамилия",
+          "role": "Длъжност, Компания ООД"
+        }
+      ]
+    },
+    "en": {
+      "eye": "Clients",
+      "h1": "Our Clients",
+      "hp": "The trust of banks, corporations and institutions is our greatest achievement.",
+      "b1": "Banks",
+      "b1h": "Banking institutions",
+      "b2": "Business",
+      "b2h": "Corporate clients",
+      "b3": "Public",
+      "b3h": "Institutions",
+      "banks": [
+        "Bank 1",
+        "Bank 2",
+        "Bank 3",
+        "Bank 4"
+      ],
+      "corp": [
+        "Company A",
+        "Company B",
+        "Company C",
+        "Company D",
+        "Company E",
+        "Company F"
+      ],
+      "inst": [
+        "Institution 1",
+        "Institution 2",
+        "Institution 3"
+      ],
+      "reh": "References",
+      "reh2": "What our clients say",
+      "title": {
+        "title": "Clients – Valoris Asset",
+        "desc": "Banks, corporate clients and institutions trust our expert valuations."
+      },
+      "quotes": [
+        {
+          "text": "Extremely satisfied with the professional work, delivered to a high standard and on a short timeline.",
+          "name": "Name Surname",
+          "role": "Position, Company Ltd"
+        },
+        {
+          "text": "We are grateful for the productive cooperation and will continue to work together.",
+          "name": "Name Surname",
+          "role": "Position, Company JSC"
+        },
+        {
+          "text": "The team carries out every expert valuation with high professionalism and within the agreed deadline.",
+          "name": "Name Surname",
+          "role": "Company Plc"
+        },
+        {
+          "text": "The company operates at the highest level in terms of professionalism and integrity.",
+          "name": "Name Surname",
+          "role": "Position, Company Ltd"
+        }
+      ]
+    }
+  }
+}

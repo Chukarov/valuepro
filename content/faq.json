@@ -1,0 +1,80 @@
+{
+  "faq": {
+    "bg": {
+      "eye": "Помощ",
+      "h1": "Често задавани въпроси",
+      "hp": "Отговори на най-честите въпроси за нашите услуги.",
+      "cta_h": "Не намерихте отговор?",
+      "cta_p": "Свържете се с нас и ще ви помогнем.",
+      "cta1": "Контакти",
+      "title": {
+        "title": "Често задавани въпроси – Valoris Asset",
+        "desc": "Отговори на често задавани въпроси за процеса, цените и валидността на оценките."
+      },
+      "q": [
+        {
+          "q": "Какъв е процесът на изготвяне на оценка?",
+          "a": "След запитване изготвяме оферта, извършваме оглед, анализираме данните и предоставяме готовия доклад в договорения срок."
+        },
+        {
+          "q": "Как протича огледът на обекта?",
+          "a": "Наш оценител посещава обекта в уговорено време, прави снимки и заснема необходимите характеристики и размери."
+        },
+        {
+          "q": "Каква е цената на оценката?",
+          "a": "Зависи от вида и характеристиките на актива. Вижте ценоразписа или се свържете с нас за оферта."
+        },
+        {
+          "q": "Каква е валидността на оценката?",
+          "a": "Обикновено 6 месеца, но срокът може да варира според целта и изискванията на институцията."
+        },
+        {
+          "q": "Може ли една оценка да послужи на няколко места?",
+          "a": "В повечето случаи да, ако целта и базата ѝ съответстват на изискванията на съответната институция."
+        },
+        {
+          "q": "Каква методология използвате?",
+          "a": "Пазарен, разходен и приходен подход съобразно актива и целта, по международните стандарти."
+        }
+      ]
+    },
+    "en": {
+      "eye": "Help",
+      "h1": "Frequently Asked Questions",
+      "hp": "Answers to the most common questions about our services.",
+      "cta_h": "Didn't find an answer?",
+      "cta_p": "Contact us and we'll help.",
+      "cta1": "Contact",
+      "title": {
+        "title": "FAQ – Valoris Asset",
+        "desc": "Answers to frequently asked questions about the process, pricing and validity of valuations."
+      },
+      "q": [
+        {
+          "q": "What is the valuation process?",
+          "a": "After your enquiry we prepare a quote, carry out an inspection, analyse the data and deliver the completed report within the agreed deadline."
+        },
+        {
+          "q": "How does the on-site inspection work?",
+          "a": "Our appraiser visits the site at an agreed time, takes photos and records the necessary features and dimensions."
+        },
+        {
+          "q": "How much does a valuation cost?",
+          "a": "It depends on the type and characteristics of the asset. See our pricing or contact us for a quote."
+        },
+        {
+          "q": "How long is a valuation valid?",
+          "a": "Usually 6 months, but this can vary depending on the purpose and the requirements of the institution."
+        },
+        {
+          "q": "Can one valuation be used in several places?",
+          "a": "In most cases yes, if its purpose and basis match the requirements of the relevant institution."
+        },
+        {
+          "q": "What methodology do you use?",
+          "a": "Market, cost and income approaches according to the asset and purpose, in line with international standards."
+        }
+      ]
+    }
+  }
+}

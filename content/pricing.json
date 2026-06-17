@@ -1,0 +1,640 @@
+{
+  "ceni": {
+    "bg": {
+      "eye": "Ценоразпис",
+      "h1": "Цени за <em>експертни оценки</em>",
+      "lead": "Прозрачни и конкурентни цени за всички видове пазарни оценки. Без скрити такси.",
+      "th": [
+        "Вид имот / актив",
+        "Такса (EUR с ДДС)",
+        "Такса (BGN с ДДС)",
+        "Срок (дни)"
+      ],
+      "th_asset": "Вид оценяван актив",
+      "s1": "Оценка на недвижим имот",
+      "s2": "Сгради с прилежаща земя",
+      "s3": "Машини и съоръжения",
+      "s4": "Земеделска земя",
+      "neg": "по договаряне",
+      "minw": "минимум",
+      "min": "мин.",
+      "lv": "лв.",
+      "express": "ЕКСПРЕСНА",
+      "expressd": "Оценка (до 2 дни)",
+      "exprate": "+50% от основното възнаграждение",
+      "upto2": "до 2",
+      "foot": "* Цените са преизчислени по курс 1 EUR = 1,95583 BGN и закръглени до два знака. За нестандартни обекти цената е по индивидуално договаряне.",
+      "cta_h": "Нужна ви е индивидуална оферта?",
+      "cta_p": "Изпратете ни списък с обектите и техните характеристики — отговаряме до 24 часа.",
+      "cta1": "Изпратете запитване",
+      "tables": {
+        "realestate": [
+          {
+            "name": "Апартамент до 150 м² – завършено",
+            "eur": "€150",
+            "bgn": "293,37 лв.",
+            "days": "3–5",
+            "type": "b",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Апартамент до 150 м² – незавършено",
+            "eur": "€180",
+            "bgn": "352,05 лв.",
+            "days": "3–5",
+            "type": "b",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Доплащане за гараж или паркомясто",
+            "eur": "€42",
+            "bgn": "82,14 лв.",
+            "days": "3–5",
+            "type": "extra",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Самостоятелен гараж / паркомясто",
+            "eur": "€84",
+            "bgn": "164,29 лв.",
+            "days": "3–5",
+            "type": "b",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Апартамент над 150 м²; мезонет – завършено",
+            "eur": "€300",
+            "bgn": "588,75 лв.",
+            "days": "3–5",
+            "type": "b",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Апартамент над 150 м²; мезонет – незавършено",
+            "eur": "",
+            "bgn": "",
+            "days": "–",
+            "type": "b",
+            "eur_neg": true,
+            "bgn_neg": false,
+            "eur_min": "минимум €336",
+            "bgn_min": "мин. 657,16 лв."
+          },
+          {
+            "name": "Офис самостоятелен – до 200 м²",
+            "eur": "€240",
+            "bgn": "469,40 лв.",
+            "days": "3–5",
+            "type": "b",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Доплащане за всеки допълнителни 200 м²",
+            "eur": "€72",
+            "bgn": "140,82 лв.",
+            "days": "–",
+            "type": "extra",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Търговски обект до 200 м²",
+            "eur": "€240",
+            "bgn": "469,40 лв.",
+            "days": "3–5",
+            "type": "b",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Доплащане за всеки допълнителни 200 м²",
+            "eur": "€72",
+            "bgn": "140,82 лв.",
+            "days": "–",
+            "type": "extra",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          }
+        ],
+        "buildings": [
+          {
+            "name": "Едноетажна къща със ЗП до 150 м²",
+            "eur": "€216",
+            "bgn": "422,46 лв.",
+            "days": "3",
+            "type": "b",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Доплащане за всеки допълнителен етаж/постройка",
+            "eur": "€60",
+            "bgn": "117,35 лв.",
+            "days": "–",
+            "type": "extra",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Къща над 150 м² или „луксозен имот\"",
+            "eur": "",
+            "bgn": "",
+            "days": "5",
+            "type": "b",
+            "eur_neg": true,
+            "bgn_neg": false,
+            "eur_min": "минимум €360",
+            "bgn_min": "мин. 704,10 лв."
+          }
+        ],
+        "machinery": [
+          {
+            "name": "Лек автомобил",
+            "eur": "€120",
+            "bgn": "234,70 лв.",
+            "days": "2",
+            "type": "",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Товарен автомобил",
+            "eur": "€160",
+            "bgn": "312,93 лв.",
+            "days": "2",
+            "type": "",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Селскостопанска машина",
+            "eur": "€150",
+            "bgn": "293,37 лв.",
+            "days": "2",
+            "type": "",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Прикачен инвентар",
+            "eur": "€110",
+            "bgn": "215,14 лв.",
+            "days": "2",
+            "type": "",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Производствена машина – самостоятелна",
+            "eur": "",
+            "bgn": "",
+            "days": "3",
+            "type": "",
+            "eur_neg": true,
+            "bgn_neg": false,
+            "eur_min": "минимум €300",
+            "bgn_min": "мин. 586,75 лв."
+          },
+          {
+            "name": "Поточна линия",
+            "eur": "",
+            "bgn": "",
+            "days": "4–6",
+            "type": "",
+            "eur_neg": true,
+            "bgn_neg": false,
+            "eur_min": "минимум €360",
+            "bgn_min": "мин. 704,10 лв."
+          },
+          {
+            "name": "Компютърна техника, материални запаси",
+            "eur": "",
+            "bgn": "–",
+            "days": "–",
+            "type": "",
+            "eur_neg": true,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          }
+        ],
+        "agri": [
+          {
+            "name": "Земеделска земя – поземлен имот (1 бр.)",
+            "eur": "€130",
+            "bgn": "254,26 лв.",
+            "days": "3",
+            "type": "",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Доплащане за всеки допълнителен парцел",
+            "eur": "",
+            "bgn": "",
+            "days": "–",
+            "type": "extra",
+            "eur_neg": true,
+            "bgn_neg": true,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Земеделска земя с трайни насаждения",
+            "eur": "",
+            "bgn": "",
+            "days": "5",
+            "type": "",
+            "eur_neg": true,
+            "bgn_neg": false,
+            "eur_min": "минимум €312",
+            "bgn_min": "мин. 610,22 лв."
+          },
+          {
+            "name": "Празен терен (УПИ, ПИ) без разрешение",
+            "eur": "",
+            "bgn": "",
+            "days": "3",
+            "type": "",
+            "eur_neg": true,
+            "bgn_neg": false,
+            "eur_min": "минимум €174",
+            "bgn_min": "мин. 340,31 лв."
+          },
+          {
+            "name": "УПИ с разрешение за строеж",
+            "eur": "",
+            "bgn": "",
+            "days": "5",
+            "type": "",
+            "eur_neg": true,
+            "bgn_neg": false,
+            "eur_min": "минимум €360",
+            "bgn_min": "мин. 704,10 лв."
+          }
+        ]
+      }
+    },
+    "en": {
+      "eye": "Pricing",
+      "h1": "Prices for <em>expert valuations</em>",
+      "lead": "Transparent and competitive prices for all types of market valuations. No hidden fees.",
+      "th": [
+        "Property / asset type",
+        "Fee (EUR incl. VAT)",
+        "Fee (BGN incl. VAT)",
+        "Time (days)"
+      ],
+      "th_asset": "Asset type",
+      "s1": "Real estate valuation",
+      "s2": "Buildings with adjoining land",
+      "s3": "Machinery & equipment",
+      "s4": "Agricultural land",
+      "neg": "by agreement",
+      "minw": "minimum",
+      "min": "min.",
+      "lv": "BGN",
+      "express": "EXPRESS",
+      "expressd": "valuation (up to 2 days)",
+      "exprate": "+50% of the base fee",
+      "upto2": "up to 2",
+      "foot": "* Prices are converted at the rate 1 EUR = 1.95583 BGN and rounded to two decimals. Non-standard assets are priced by individual agreement.",
+      "cta_h": "Need an individual quote?",
+      "cta_p": "Send us a list of the assets and their characteristics — we reply within 24 hours.",
+      "cta1": "Send an enquiry",
+      "tables": {
+        "realestate": [
+          {
+            "name": "Apartment up to 150 m² – completed",
+            "eur": "€150",
+            "bgn": "BGN 293.37",
+            "days": "3–5",
+            "type": "b",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Apartment up to 150 m² – unfinished",
+            "eur": "€180",
+            "bgn": "BGN 352.05",
+            "days": "3–5",
+            "type": "b",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Surcharge for garage or parking space",
+            "eur": "€42",
+            "bgn": "BGN 82.14",
+            "days": "3–5",
+            "type": "extra",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Standalone garage / parking space",
+            "eur": "€84",
+            "bgn": "BGN 164.29",
+            "days": "3–5",
+            "type": "b",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Apartment over 150 m²; maisonette – completed",
+            "eur": "€300",
+            "bgn": "BGN 588.75",
+            "days": "3–5",
+            "type": "b",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Apartment over 150 m²; maisonette – unfinished",
+            "eur": "",
+            "bgn": "",
+            "days": "–",
+            "type": "b",
+            "eur_neg": true,
+            "bgn_neg": false,
+            "eur_min": "minimum €336",
+            "bgn_min": "min. BGN 657.16"
+          },
+          {
+            "name": "Standalone office – up to 200 m²",
+            "eur": "€240",
+            "bgn": "BGN 469.40",
+            "days": "3–5",
+            "type": "b",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Surcharge per additional 200 m²",
+            "eur": "€72",
+            "bgn": "BGN 140.82",
+            "days": "–",
+            "type": "extra",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Retail unit up to 200 m²",
+            "eur": "€240",
+            "bgn": "BGN 469.40",
+            "days": "3–5",
+            "type": "b",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Surcharge per additional 200 m²",
+            "eur": "€72",
+            "bgn": "BGN 140.82",
+            "days": "–",
+            "type": "extra",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          }
+        ],
+        "buildings": [
+          {
+            "name": "Single-storey house, built-up area up to 150 m²",
+            "eur": "€216",
+            "bgn": "BGN 422.46",
+            "days": "3",
+            "type": "b",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Surcharge per additional floor/building",
+            "eur": "€60",
+            "bgn": "BGN 117.35",
+            "days": "–",
+            "type": "extra",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "House over 150 m² or \"luxury property\"",
+            "eur": "",
+            "bgn": "",
+            "days": "5",
+            "type": "b",
+            "eur_neg": true,
+            "bgn_neg": false,
+            "eur_min": "minimum €360",
+            "bgn_min": "min. BGN 704.10"
+          }
+        ],
+        "machinery": [
+          {
+            "name": "Passenger car",
+            "eur": "€120",
+            "bgn": "BGN 234.70",
+            "days": "2",
+            "type": "",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Truck",
+            "eur": "€160",
+            "bgn": "BGN 312.93",
+            "days": "2",
+            "type": "",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Agricultural machine",
+            "eur": "€150",
+            "bgn": "BGN 293.37",
+            "days": "2",
+            "type": "",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Towed implement",
+            "eur": "€110",
+            "bgn": "BGN 215.14",
+            "days": "2",
+            "type": "",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Production machine – standalone",
+            "eur": "",
+            "bgn": "",
+            "days": "3",
+            "type": "",
+            "eur_neg": true,
+            "bgn_neg": false,
+            "eur_min": "minimum €300",
+            "bgn_min": "min. BGN 586.75"
+          },
+          {
+            "name": "Production line",
+            "eur": "",
+            "bgn": "",
+            "days": "4–6",
+            "type": "",
+            "eur_neg": true,
+            "bgn_neg": false,
+            "eur_min": "minimum €360",
+            "bgn_min": "min. BGN 704.10"
+          },
+          {
+            "name": "Computer equipment, inventory",
+            "eur": "",
+            "bgn": "–",
+            "days": "–",
+            "type": "",
+            "eur_neg": true,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          }
+        ],
+        "agri": [
+          {
+            "name": "Agricultural land – plot (1 pc.)",
+            "eur": "€130",
+            "bgn": "BGN 254.26",
+            "days": "3",
+            "type": "",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Surcharge per additional parcel",
+            "eur": "",
+            "bgn": "",
+            "days": "–",
+            "type": "extra",
+            "eur_neg": true,
+            "bgn_neg": true,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Agricultural land with permanent crops",
+            "eur": "",
+            "bgn": "",
+            "days": "5",
+            "type": "",
+            "eur_neg": true,
+            "bgn_neg": false,
+            "eur_min": "minimum €312",
+            "bgn_min": "min. BGN 610.22"
+          },
+          {
+            "name": "Vacant plot (regulated/land) without permit",
+            "eur": "",
+            "bgn": "",
+            "days": "3",
+            "type": "",
+            "eur_neg": true,
+            "bgn_neg": false,
+            "eur_min": "minimum €174",
+            "bgn_min": "min. BGN 340.31"
+          },
+          {
+            "name": "Regulated plot with building permit",
+            "eur": "",
+            "bgn": "",
+            "days": "5",
+            "type": "",
+            "eur_neg": true,
+            "bgn_neg": false,
+            "eur_min": "minimum €360",
+            "bgn_min": "min. BGN 704.10"
+          }
+        ]
+      }
+    }
+  },
+  "ceni_title": {
+    "bg": {
+      "title": "Цени за оценки – Valoris Asset",
+      "desc": "Прозрачен ценоразпис за оценки на недвижими имоти, машини, съоръжения и земеделска земя."
+    },
+    "en": {
+      "title": "Pricing – Valoris Asset",
+      "desc": "Transparent price list for valuations of real estate, machinery, equipment and agricultural land."
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "contact": {
+    "bg": {
+      "eye": "Контакти",
+      "h1": "Свържете се с нас",
+      "hp": "Готови сме да отговорим на вашите въпроси и да изготвим оферта.",
+      "ih": "Информация за контакт",
+      "addr": "Адрес",
+      "addrv": "гр. София, ул. „Примерна\" № 1<br>(заменете с вашия адрес)",
+      "ph": "Телефон",
+      "em": "Имейл",
+      "wh": "Работно време",
+      "whv": "Понеделник – Петък: 9:00 – 18:00",
+      "fh": "Изпратете запитване",
+      "f_name": "Име *",
+      "f_namep": "Вашето име",
+      "f_email": "Имейл *",
+      "f_phone": "Телефон",
+      "f_type": "Вид оценка",
+      "opts": [
+        "Недвижим имот",
+        "Бизнес оценка",
+        "Машини и съоръжения",
+        "Земеделска земя",
+        "Друго"
+      ],
+      "f_msg": "Съобщение *",
+      "f_msgp": "Опишете обекта за оценяване...",
+      "f_btn": "Изпрати запитване",
+      "e_name": "Моля, въведете вашето име.",
+      "e_email": "Моля, въведете валиден имейл.",
+      "e_msg": "Моля, въведете съобщение.",
+      "note": "* Полетата са задължителни. Формата се валидира в браузъра; за реално изпращане я свържете с вашия сървър или имейл услуга със server-side валидация.",
+      "title": {
+        "title": "Контакти – Valoris Asset",
+        "desc": "Свържете се с Valoris Asset за безплатна консултация и индивидуална оферта за оценка."
+      }
+    },
+    "en": {
+      "eye": "Contact",
+      "h1": "Get in touch",
+      "hp": "We're ready to answer your questions and prepare a quote.",
+      "ih": "Contact information",
+      "addr": "Address",
+      "addrv": "1 Primerna St., Sofia<br>(replace with your address)",
+      "ph": "Phone",
+      "em": "Email",
+      "wh": "Working hours",
+      "whv": "Monday – Friday: 9:00 – 18:00",
+      "fh": "Send an enquiry",
+      "f_name": "Name *",
+      "f_namep": "Your name",
+      "f_email": "Email *",
+      "f_phone": "Phone",
+      "f_type": "Valuation type",
+      "opts": [
+        "Real estate",
+        "Business valuation",
+        "Machinery & equipment",
+        "Agricultural land",
+        "Other"
+      ],
+      "f_msg": "Message *",
+      "f_msgp": "Describe the asset to be valued...",
+      "f_btn": "Send enquiry",
+      "e_name": "Please enter your name.",
+      "e_email": "Please enter a valid email.",
+      "e_msg": "Please enter a message.",
+      "note": "* Required fields. The form is validated in the browser; to actually send it, connect it to your server or email service with server-side validation.",
+      "title": {
+        "title": "Contact – Valoris Asset",
+        "desc": "Contact Valoris Asset for a free consultation and an individual valuation quote."
+      }
+    }
+  }
+}

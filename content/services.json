@@ -1,0 +1,364 @@
+{
+  "svc_chrome": {
+    "bg": {
+      "eye": "Услуги",
+      "desc_p": "Тук опишете подробно услугата: за кого е предназначена, в какви случаи се изисква оценка, какви документи са необходими и какъв е резултатът. Заменете този текст с вашето реално съдържание.",
+      "when_h": "Кога е необходима тази оценка",
+      "when": [
+        "Покупко-продажба или замяна на активи",
+        "Банково кредитиране и обезпечения",
+        "Счетоводни и данъчни цели",
+        "Съдебни и нотариални производства",
+        "Апортни вноски и преобразуване на дружества"
+      ],
+      "incl_h": "Какво включва услугата",
+      "meth_h": "Методология",
+      "meth_p": "Прилагаме международно признатите подходи — пазарен, разходен и приходен — съобразно вида на актива и целта на оценката. Всеки доклад е изготвен от сертифициран оценител.",
+      "as_h": "Заяви оценка",
+      "as_p": "Индивидуална оферта в рамките на 24 часа.",
+      "as_btn": "Запитване",
+      "as_price": "Виж ценоразписа",
+      "cta_h": "Имате нужда от тази услуга?",
+      "cta_p": "Изпратете ни описание на обекта и ще получите оферта бързо.",
+      "cta1": "Заяви оценка",
+      "cta2": "Цени"
+    },
+    "en": {
+      "eye": "Services",
+      "desc_p": "Describe the service in detail here: who it is for, when a valuation is required, what documents are needed and what the deliverable is. Replace this text with your real content.",
+      "when_h": "When this valuation is needed",
+      "when": [
+        "Purchase, sale or exchange of assets",
+        "Bank lending and collateral",
+        "Accounting and tax purposes",
+        "Court and notary proceedings",
+        "In-kind contributions and company restructuring"
+      ],
+      "incl_h": "What the service includes",
+      "meth_h": "Methodology",
+      "meth_p": "We apply the internationally recognised approaches — market, cost and income — according to the type of asset and the purpose of the valuation. Every report is prepared by a certified appraiser.",
+      "as_h": "Request a valuation",
+      "as_p": "An individual quote within 24 hours.",
+      "as_btn": "Enquiry",
+      "as_price": "View pricing",
+      "cta_h": "Need this service?",
+      "cta_p": "Send us a description of the asset and you'll get a quote quickly.",
+      "cta1": "Request a Valuation",
+      "cta2": "Pricing"
+    }
+  },
+  "services": [
+    {
+      "file": "ocenki-nedvizhimi-imoti.html",
+      "icon": "home",
+      "bg": {
+        "title": "Оценка на недвижими имоти – Valoris Asset",
+        "desc": "Пазарни оценки на жилищни, офис, търговски и индустриални имоти в цялата страна.",
+        "h1": "Оценка на недвижими имоти",
+        "lead": "Пазарни оценки на жилищни, офис, търговски и индустриални имоти в цялата страна.",
+        "features": [
+          {
+            "title": "Жилищни имоти",
+            "desc": "Апартаменти, къщи, мезонети и ваканционни имоти."
+          },
+          {
+            "title": "Търговски имоти",
+            "desc": "Магазини, ресторанти, складове и офис площи."
+          },
+          {
+            "title": "Индустриални имоти",
+            "desc": "Производствени бази, цехове и логистични центрове."
+          },
+          {
+            "title": "Терени",
+            "desc": "УПИ, поземлени имоти и парцели."
+          }
+        ]
+      },
+      "en": {
+        "title": "Real Estate Valuation – Valoris Asset",
+        "desc": "Market valuations of residential, office, retail and industrial properties across the country.",
+        "h1": "Real Estate Valuation",
+        "lead": "Market valuations of residential, office, retail and industrial properties across the country.",
+        "features": [
+          {
+            "title": "Residential",
+            "desc": "Apartments, houses, maisonettes and holiday homes."
+          },
+          {
+            "title": "Commercial",
+            "desc": "Shops, restaurants, warehouses and office space."
+          },
+          {
+            "title": "Industrial",
+            "desc": "Production sites, workshops and logistics centres."
+          },
+          {
+            "title": "Land",
+            "desc": "Regulated plots, land parcels and lots."
+          }
+        ]
+      }
+    },
+    {
+      "file": "ocenki-biznes.html",
+      "icon": "chart",
+      "bg": {
+        "title": "Бизнес оценки – Valoris Asset",
+        "desc": "Оценка на цели предприятия, дялове, акции и капиталови инструменти.",
+        "h1": "Бизнес оценки",
+        "lead": "Оценка на цели предприятия, дялове, акции и капиталови инструменти.",
+        "features": [
+          {
+            "title": "Оценка на предприятия",
+            "desc": "Справедлива стойност на действащ бизнес."
+          },
+          {
+            "title": "Дялове и акции",
+            "desc": "Миноритарни и мажоритарни пакети, опции."
+          },
+          {
+            "title": "Сделки M&A",
+            "desc": "Придобивания, сливания и продажби."
+          },
+          {
+            "title": "Финансово отчитане",
+            "desc": "Оценки за целите на МСФО."
+          }
+        ]
+      },
+      "en": {
+        "title": "Business Valuation – Valoris Asset",
+        "desc": "Valuation of whole enterprises, shares, stock and equity instruments.",
+        "h1": "Business Valuation",
+        "lead": "Valuation of whole enterprises, shares, stock and equity instruments.",
+        "features": [
+          {
+            "title": "Enterprise valuation",
+            "desc": "Fair value of a going concern."
+          },
+          {
+            "title": "Shares & stock",
+            "desc": "Minority and majority stakes, options."
+          },
+          {
+            "title": "M&A deals",
+            "desc": "Acquisitions, mergers and disposals."
+          },
+          {
+            "title": "Financial reporting",
+            "desc": "Valuations for IFRS purposes."
+          }
+        ]
+      }
+    },
+    {
+      "file": "ocenki-mashini.html",
+      "icon": "cog",
+      "bg": {
+        "title": "Оценка на машини и съоръжения – Valoris Asset",
+        "desc": "Оценка на производствено оборудване, транспортни средства и инвентар.",
+        "h1": "Оценка на машини и съоръжения",
+        "lead": "Оценка на производствено оборудване, транспортни средства и инвентар.",
+        "features": [
+          {
+            "title": "Производствени машини",
+            "desc": "Самостоятелни машини и поточни линии."
+          },
+          {
+            "title": "Транспортни средства",
+            "desc": "Леки, товарни автомобили и техника."
+          },
+          {
+            "title": "Селскостопанска техника",
+            "desc": "Трактори, комбайни и инвентар."
+          },
+          {
+            "title": "Оборудване",
+            "desc": "Компютърна техника, обзавеждане, запаси."
+          }
+        ]
+      },
+      "en": {
+        "title": "Machinery & Equipment Valuation – Valoris Asset",
+        "desc": "Valuation of production equipment, vehicles and inventory.",
+        "h1": "Machinery & Equipment Valuation",
+        "lead": "Valuation of production equipment, vehicles and inventory.",
+        "features": [
+          {
+            "title": "Production machines",
+            "desc": "Standalone machines and production lines."
+          },
+          {
+            "title": "Vehicles",
+            "desc": "Cars, trucks and specialised equipment."
+          },
+          {
+            "title": "Agricultural machinery",
+            "desc": "Tractors, combines and implements."
+          },
+          {
+            "title": "Equipment",
+            "desc": "Computers, furnishings and stock."
+          }
+        ]
+      }
+    },
+    {
+      "file": "ocenki-nematerialni.html",
+      "icon": "bulb",
+      "bg": {
+        "title": "Оценка на нематериални активи – Valoris Asset",
+        "desc": "Оценка на търговски марки, патенти, ноу-хау, лицензи и репутация.",
+        "h1": "Оценка на нематериални активи",
+        "lead": "Оценка на търговски марки, патенти, ноу-хау, лицензи и репутация.",
+        "features": [
+          {
+            "title": "Търговски марки",
+            "desc": "Стойност на бранд и регистрирани марки."
+          },
+          {
+            "title": "Патенти",
+            "desc": "Интелектуална собственост и технологии."
+          },
+          {
+            "title": "Ноу-хау и лицензи",
+            "desc": "Договори, права на ползване, франчайз."
+          },
+          {
+            "title": "Репутация (Goodwill)",
+            "desc": "Превишение над нетните активи."
+          }
+        ]
+      },
+      "en": {
+        "title": "Intangible Asset Valuation – Valoris Asset",
+        "desc": "Valuation of trademarks, patents, know-how, licences and goodwill.",
+        "h1": "Intangible Asset Valuation",
+        "lead": "Valuation of trademarks, patents, know-how, licences and goodwill.",
+        "features": [
+          {
+            "title": "Trademarks",
+            "desc": "Brand value and registered marks."
+          },
+          {
+            "title": "Patents",
+            "desc": "Intellectual property and technologies."
+          },
+          {
+            "title": "Know-how & licences",
+            "desc": "Contracts, usage rights, franchising."
+          },
+          {
+            "title": "Goodwill",
+            "desc": "Excess over net tangible assets."
+          }
+        ]
+      }
+    },
+    {
+      "file": "ocenki-zemedelski-zemi.html",
+      "icon": "sprout",
+      "bg": {
+        "title": "Оценка на земеделски земи – Valoris Asset",
+        "desc": "Оценка на ниви, трайни насаждения, пасища и поземлени имоти.",
+        "h1": "Оценка на земеделски земи",
+        "lead": "Оценка на ниви, трайни насаждения, пасища и поземлени имоти.",
+        "features": [
+          {
+            "title": "Обработваеми земи",
+            "desc": "Ниви и земеделски парцели."
+          },
+          {
+            "title": "Трайни насаждения",
+            "desc": "Лозя, овощни градини и гори."
+          },
+          {
+            "title": "Пасища и ливади",
+            "desc": "Постоянно затревени площи."
+          },
+          {
+            "title": "Поземлени имоти",
+            "desc": "ПИ и УПИ в различни територии."
+          }
+        ]
+      },
+      "en": {
+        "title": "Agricultural Land Valuation – Valoris Asset",
+        "desc": "Valuation of arable land, permanent crops, pastures and plots.",
+        "h1": "Agricultural Land Valuation",
+        "lead": "Valuation of arable land, permanent crops, pastures and plots.",
+        "features": [
+          {
+            "title": "Arable land",
+            "desc": "Fields and agricultural parcels."
+          },
+          {
+            "title": "Permanent crops",
+            "desc": "Vineyards, orchards and forests."
+          },
+          {
+            "title": "Pastures & meadows",
+            "desc": "Permanently grassed areas."
+          },
+          {
+            "title": "Land plots",
+            "desc": "Parcels and regulated plots in various zones."
+          }
+        ]
+      }
+    },
+    {
+      "file": "ocenki-dopalvashti.html",
+      "icon": "clipboard",
+      "bg": {
+        "title": "Допълващи услуги – Valoris Asset",
+        "desc": "Консултации, анализи, експертни становища и съдебни експертизи.",
+        "h1": "Допълващи професионални услуги",
+        "lead": "Консултации, анализи, експертни становища и съдебни експертизи.",
+        "features": [
+          {
+            "title": "Инвестиционни анализи",
+            "desc": "Доходност и осъществимост на проекти."
+          },
+          {
+            "title": "Експертни становища",
+            "desc": "Писмени становища по казуси."
+          },
+          {
+            "title": "Съдебни експертизи",
+            "desc": "Оценки за съдебни производства."
+          },
+          {
+            "title": "Консултации",
+            "desc": "Професионални консултации."
+          }
+        ]
+      },
+      "en": {
+        "title": "Additional Services – Valoris Asset",
+        "desc": "Consulting, analyses, expert opinions and court expertise.",
+        "h1": "Additional Professional Services",
+        "lead": "Consulting, analyses, expert opinions and court expertise.",
+        "features": [
+          {
+            "title": "Investment analyses",
+            "desc": "Yield and feasibility of projects."
+          },
+          {
+            "title": "Expert opinions",
+            "desc": "Written opinions on specific cases."
+          },
+          {
+            "title": "Court expertise",
+            "desc": "Valuations for court proceedings."
+          },
+          {
+            "title": "Consulting",
+            "desc": "Professional consulting."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "about": {
+    "bg": {
+      "eye": "За нас",
+      "h1": "Кои сме ние",
+      "hp": "Над 20 години изграждаме доверие като независим оценител на българския пазар.",
+      "lead": "Valoris Asset е сред водещите оценителски компании в България с над 20 години опит и национална мрежа от сертифицирани оценители.",
+      "p": "Заменете този текст с историята на вашата компания — кога е основана, основните етапи в развитието, ценностите и какво ви отличава.",
+      "mh": "Нашата мисия",
+      "mp": "Да предоставяме независими, обективни и навременни оценки, на които клиентите ни могат да разчитат при важни финансови решения.",
+      "wh": "Защо да изберете нас",
+      "title": {
+        "title": "За нас – Valoris Asset",
+        "desc": "Запознайте се с Valoris Asset — независим оценител с над 20 години опит на българския пазар."
+      },
+      "why": [
+        {
+          "head": "Опит",
+          "desc": "над две десетилетия и хиляди изготвени доклада."
+        },
+        {
+          "head": "Покритие",
+          "desc": "оценители във всички региони на страната."
+        },
+        {
+          "head": "Бързина",
+          "desc": "стандартен срок 3–5 дни, експресни до 2 дни."
+        },
+        {
+          "head": "Качество",
+          "desc": "доклади по международните стандарти."
+        }
+      ],
+      "stats": [
+        {
+          "value": "20",
+          "suffix": "+",
+          "label": "години опит"
+        },
+        {
+          "value": "15000",
+          "suffix": "+",
+          "label": "изготвени оценки"
+        },
+        {
+          "value": "100",
+          "suffix": "+",
+          "label": "оценители"
+        },
+        {
+          "value": "28",
+          "suffix": "",
+          "label": "области"
+        }
+      ]
+    },
+    "en": {
+      "eye": "About",
+      "h1": "Who We Are",
+      "hp": "For over 20 years we have built trust as an independent appraiser on the Bulgarian market.",
+      "lead": "Valoris Asset is among the leading appraisal companies in Bulgaria, with over 20 years of experience and a nationwide network of certified appraisers.",
+      "p": "Replace this text with your company's story — when it was founded, key milestones, your values and what sets you apart.",
+      "mh": "Our mission",
+      "mp": "To deliver independent, objective and timely valuations our clients can rely on for important financial decisions.",
+      "wh": "Why choose us",
+      "title": {
+        "title": "About – Valoris Asset",
+        "desc": "Meet Valoris Asset — an independent appraiser with over 20 years of experience on the Bulgarian market."
+      },
+      "why": [
+        {
+          "head": "Experience",
+          "desc": "over two decades and thousands of reports delivered."
+        },
+        {
+          "head": "Coverage",
+          "desc": "appraisers in every region of the country."
+        },
+        {
+          "head": "Speed",
+          "desc": "standard turnaround 3–5 days, express up to 2 days."
+        },
+        {
+          "head": "Quality",
+          "desc": "reports compliant with international standards."
+        }
+      ],
+      "stats": [
+        {
+          "value": "20",
+          "suffix": "+",
+          "label": "years of experience"
+        },
+        {
+          "value": "15000",
+          "suffix": "+",
+          "label": "valuations completed"
+        },
+        {
+          "value": "100",
+          "suffix": "+",
+          "label": "appraisers"
+        },
+        {
+          "value": "28",
+          "suffix": "",
+          "label": "regions"
+        }
+      ]
+    }
+  },
+  "methodology": {
+    "bg": {
+      "eye": "За нас",
+      "h1": "Методология на оценяване",
+      "hp": "Прилагаме международно признатите подходи и стандарти за оценяване.",
+      "lead": "Всяка оценка се изготвя в съответствие с Международните стандарти за оценяване (IVS) и българското законодателство.",
+      "ah": "Трите основни подхода",
+      "sh": "Етапи на работа",
+      "title": {
+        "title": "Методология – Valoris Asset",
+        "desc": "Методология на оценяване по международните стандарти (IVS): пазарен, разходен и приходен подход."
+      },
+      "app": [
+        {
+          "title": "Пазарен подход",
+          "desc": "Стойността се определя чрез сравнение с реализирани сделки за сходни активи."
+        },
+        {
+          "title": "Разходен подход",
+          "desc": "Стойността се базира на разходите за възстановяване, намалени с амортизацията."
+        },
+        {
+          "title": "Приходен подход",
+          "desc": "Стойността се извежда от способността на актива да генерира бъдещи парични потоци."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Дефиниране на задачата",
+          "desc": "Уточняване на обекта, целта и базата на оценката."
+        },
+        {
+          "title": "Събиране на данни",
+          "desc": "Оглед, документи и пазарна информация."
+        },
+        {
+          "title": "Анализ",
+          "desc": "Прилагане на подходящите подходи и методи."
+        },
+        {
+          "title": "Заключение и доклад",
+          "desc": "Изготвяне на писмен експертен доклад."
+        }
+      ]
+    },
+    "en": {
+      "eye": "About",
+      "h1": "Valuation Methodology",
+      "hp": "We apply internationally recognised valuation approaches and standards.",
+      "lead": "Every valuation is prepared in accordance with the International Valuation Standards (IVS) and Bulgarian legislation.",
+      "ah": "The three core approaches",
+      "sh": "Workflow stages",
+      "title": {
+        "title": "Methodology – Valoris Asset",
+        "desc": "Valuation methodology under the International Valuation Standards (IVS): market, cost and income approaches."
+      },
+      "app": [
+        {
+          "title": "Market approach",
+          "desc": "Value is determined by comparison with completed transactions for similar assets."
+        },
+        {
+          "title": "Cost approach",
+          "desc": "Value is based on replacement cost less accumulated depreciation."
+        },
+        {
+          "title": "Income approach",
+          "desc": "Value is derived from the asset's ability to generate future cash flows."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Defining the engagement",
+          "desc": "Clarifying the asset, purpose and basis of value."
+        },
+        {
+          "title": "Data collection",
+          "desc": "Inspection, documents and market information."
+        },
+        {
+          "title": "Analysis",
+          "desc": "Applying the appropriate approaches and methods."
+        },
+        {
+          "title": "Conclusion & report",
+          "desc": "Preparing a written expert report."
+        }
+      ]
+    }
+  },
+  "network": {
+    "bg": {
+      "eye": "За нас",
+      "h1": "Оценителска мрежа",
+      "hp": "Сертифицирани оценители във всички региони на страната.",
+      "lead": "Нашата национална мрежа от независими оценители ни позволява да извършваме огледи и оценки в кратки срокове във всяка точка на България.",
+      "p": "Заменете този текст с описание на вашата мрежа — брой оценители, специализации, регионално покритие и контрол на качеството.",
+      "rh": "Регионално покритие",
+      "regions": [
+        "София",
+        "Пловдив",
+        "Варна",
+        "Бургас",
+        "Русе",
+        "Стара Загора",
+        "Плевен",
+        "Велико Търново",
+        "Благоевград",
+        "Хасково",
+        "Шумен",
+        "Добрич"
+      ],
+      "cta_h": "Искате да станете част от мрежата?",
+      "cta_p": "Търсим сертифицирани оценители за разширяване на екипа.",
+      "cta1": "Кандидатствай",
+      "title": {
+        "title": "Оценителска мрежа – Valoris Asset",
+        "desc": "Национална мрежа от сертифицирани оценители с покритие във всички области на България."
+      }
+    },
+    "en": {
+      "eye": "About",
+      "h1": "Appraiser Network",
+      "hp": "Certified appraisers in every region of the country.",
+      "lead": "Our nationwide network of independent appraisers lets us carry out inspections and valuations quickly anywhere in Bulgaria.",
+      "p": "Replace this text with a description of your network — number of appraisers, specialisations, regional coverage and quality control.",
+      "rh": "Regional coverage",
+      "regions": [
+        "Sofia",
+        "Plovdiv",
+        "Varna",
+        "Burgas",
+        "Ruse",
+        "Stara Zagora",
+        "Pleven",
+        "Veliko Tarnovo",
+        "Blagoevgrad",
+        "Haskovo",
+        "Shumen",
+        "Dobrich"
+      ],
+      "cta_h": "Want to join the network?",
+      "cta_p": "We're looking for certified appraisers to expand the team.",
+      "cta1": "Apply",
+      "title": {
+        "title": "Appraiser Network – Valoris Asset",
+        "desc": "A nationwide network of certified appraisers covering every region of Bulgaria."
+      }
+    }
+  }
+}

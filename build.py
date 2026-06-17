@@ -233,10 +233,10 @@ C={'bg':{},'en':{}}
 def home_body(lang):
     g=lambda k:C[lang][k]
     s=HOME[lang]
-    cards="".join(f'<div class="card reveal"><div class="ic">{icon(ic)}</div><h3>{ti}</h3><p>{d}</p><a class="more" href="{u}">{s["more"]}</a></div>' for ic,ti,d,u in s["cards"])
-    quotes="".join(f'<div class="quote reveal"><p>{q}</p><div class="by">{n} <span>– {r}</span></div></div>' for q,n,r in s["quotes"])
-    steps="".join(f'<div class="step reveal"><div class="sn">{i+1}</div><div><h3>{ti}</h3><p>{d}</p></div></div>' for i,(ti,d) in enumerate(s["steps"]))
-    statcells="".join(f'<div class="stat"><div class="n" data-target="{tg}"{(" data-suffix=\""+sf+"\"") if sf else ""}>0</div><div class="l">{l}</div></div>' for tg,sf,l in s["stats"])
+    cards="".join(f'<div class="card reveal"><div class="ic">{icon(ic)}</div><h3>{ti}</h3><p>{d}</p><a class="more" href="{u}">{s["more"]}</a></div>' for ic,ti,d,u in [(c["icon"],c["title"],c["desc"],c["url"]) for c in s["cards"]])
+    quotes="".join(f'<div class="quote reveal"><p>{q}</p><div class="by">{n} <span>– {r}</span></div></div>' for q,n,r in [(x["text"],x["name"],x["role"]) for x in s["quotes"]])
+    steps="".join(f'<div class="step reveal"><div class="sn">{i+1}</div><div><h3>{ti}</h3><p>{d}</p></div></div>' for i,(ti,d) in enumerate([(x["title"],x["desc"]) for x in s["steps"]]))
+    statcells="".join(f'<div class="stat"><div class="n" data-target="{tg}"{(" data-suffix=\""+sf+"\"") if sf else ""}>0</div><div class="l">{l}</div></div>' for tg,sf,l in [(x["value"],x["suffix"],x["label"]) for x in s["stats"]])
     return f'''<main id="main">
 <section class="hero"><div class="hero-inner">
   <div class="reveal">
@@ -363,7 +363,7 @@ SERVICES={  # file: (icon, {lang:(title,desc,h1,lead,[ (ft,fd)x4 ])})
 }
 def service_body(lang, ic_name, h1, lead, feats):
     c=SVC_CHROME[lang]
-    cards="".join(f'<div class="card reveal"><h3>{t}</h3><p>{d}</p></div>' for t,d in feats)
+    cards="".join(f'<div class="card reveal"><h3>{t}</h3><p>{d}</p></div>' for t,d in [(x["title"],x["desc"]) for x in feats])
     whens="".join(f'<li>{w}</li>' for w in c['when'])
     return f'''<main id="main">
 <section class="hero hero-sm"><div class="hero-inner"><div class="reveal">
@@ -458,7 +458,7 @@ CENITITLE={'bg':('Цени за оценки – Valoris Asset','Прозрач�
 print("ceni loaded")
 
 def stat_cells(stats):
-    return "".join(f'<div class="stat"><div class="n" data-target="{tg}"{(" data-suffix=\""+sf+"\"") if sf else ""}>0</div><div class="l">{l}</div></div>' for tg,sf,l in stats)
+    return "".join(f'<div class="stat"><div class="n" data-target="{x["value"]}"{(" data-suffix=\""+x["suffix"]+"\"") if x["suffix"] else ""}>0</div><div class="l">{x["label"]}</div></div>' for x in stats)
 
 # ---------- ABOUT ----------
 ABOUT={
@@ -475,7 +475,7 @@ ABOUT={
 }
 def about_body(lang):
     a=ABOUT[lang]
-    why="".join(f'<li><strong>{h}</strong> — {d}</li>' for h,d in a['why'])
+    why="".join(f'<li><strong>{h}</strong> — {d}</li>' for h,d in [(x["head"],x["desc"]) for x in a['why']])
     return f'''<main id="main">
 <section class="hero hero-sm"><div class="hero-inner"><div class="reveal"><span class="eyebrow">{a['eye']}</span><h1>{a['h1']}</h1><p>{a['hp']}</p></div></div></section>
 <section class="section"><div class="wrap-narrow prose reveal">
@@ -499,8 +499,8 @@ METH={
 }
 def meth_body(lang):
     m=METH[lang]
-    apps="".join(f'<h3>{h}</h3><p>{d}</p>' for h,d in m['app'])
-    steps="".join(f'<div class="step reveal"><div class="sn">{i+1}</div><div><h3>{h}</h3><p>{d}</p></div></div>' for i,(h,d) in enumerate(m['steps']))
+    apps="".join(f'<h3>{h}</h3><p>{d}</p>' for h,d in [(x["title"],x["desc"]) for x in m['app']])
+    steps="".join(f'<div class="step reveal"><div class="sn">{i+1}</div><div><h3>{h}</h3><p>{d}</p></div></div>' for i,(h,d) in enumerate([(x["title"],x["desc"]) for x in m['steps']]))
     return f'''<main id="main">
 <section class="hero hero-sm"><div class="hero-inner"><div class="reveal"><span class="eyebrow">{m['eye']}</span><h1>{m['h1']}</h1><p>{m['hp']}</p></div></div></section>
 <section class="section"><div class="wrap-narrow prose reveal"><p class="lead">{m['lead']}</p><h2>{m['ah']}</h2>{apps}</div></section>
@@ -543,7 +543,7 @@ CLI={
 def cli_body(lang):
     c=CLI[lang]
     def wall(items): return "".join(f'<div class="tile">{i}</div>' for i in items)
-    quotes="".join(f'<div class="quote reveal"><p>{q}</p><div class="by">{n} <span>– {r}</span></div></div>' for q,n,r in c['quotes'])
+    quotes="".join(f'<div class="quote reveal"><p>{q}</p><div class="by">{n} <span>– {r}</span></div></div>' for q,n,r in [(x["text"],x["name"],x["role"]) for x in c['quotes']])
     return f'''<main id="main">
 <section class="hero hero-sm"><div class="hero-inner"><div class="reveal"><span class="eyebrow">{c['eye']}</span><h1>{c['h1']}</h1><p>{c['hp']}</p></div></div></section>
 <section class="section"><div class="wrap">
@@ -563,7 +563,7 @@ BLOG={
 }
 def blog_body(lang):
     b=BLOG[lang]
-    posts="".join(f'<a href="#" class="post reveal"><div class="thumb">{icon(ic)}</div><div class="pb"><div class="date">{d}</div><h3>{ti}</h3><p>{e}</p></div></a>' for ic,d,ti,e in b['posts'])
+    posts="".join(f'<a href="#" class="post reveal"><div class="thumb">{icon(ic)}</div><div class="pb"><div class="date">{d}</div><h3>{ti}</h3><p>{e}</p></div></a>' for ic,d,ti,e in [(x["icon"],x["date"],x["title"],x["excerpt"]) for x in b['posts']])
     return f'''<main id="main">
 <section class="hero hero-sm"><div class="hero-inner"><div class="reveal"><span class="eyebrow">{b['eye']}</span><h1>{b['h1']}</h1><p>{b['hp']}</p></div></div></section>
 <section class="section"><div class="wrap"><div class="grid grid-3">{posts}</div></div></section></main>'''
@@ -579,7 +579,7 @@ FAQ={
 }
 def faq_body(lang):
     f=FAQ[lang]
-    items="".join(f'<div class="faq-item"><button class="faq-q">{q}</button><div class="faq-a"><div>{a}</div></div></div>' for q,a in f['q'])
+    items="".join(f'<div class="faq-item"><button class="faq-q">{q}</button><div class="faq-a"><div>{a}</div></div></div>' for q,a in [(x["q"],x["a"]) for x in f['q']])
     return f'''<main id="main">
 <section class="hero hero-sm"><div class="hero-inner"><div class="reveal"><span class="eyebrow">{f['eye']}</span><h1>{f['h1']}</h1><p>{f['hp']}</p></div></div></section>
 <section class="section"><div class="wrap-narrow reveal">{items}
@@ -635,17 +635,19 @@ def nf_body(lang):
     t=NF[lang]
     return f'''<main id="main">
 <section class="hero" style="min-height:58vh;display:flex;align-items:center;"><div class="hero-inner" style="grid-template-columns:1fr;text-align:center;"><div class="reveal">
-  <span class="eyebrow" style="justify-content:center;">{t[2]}</span>
-  <h1 style="margin:1rem 0;">{t[3]}</h1>
-  <p style="margin:0 auto 1.5rem;">{t[4]}</p>
-  <a href="index.html" class="btn btn-accent btn-lg">{t[5]}</a>
+  <span class="eyebrow" style="justify-content:center;">{t['eyebrow']}</span>
+  <h1 style="margin:1rem 0;">{t['h1']}</h1>
+  <p style="margin:0 auto 1.5rem;">{t['p']}</p>
+  <a href="index.html" class="btn btn-accent btn-lg">{t['button']}</a>
 </div></div></section>
 </main>'''
 
 
 # ---------------- LOAD EDITABLE CONTENT ----------------
-import json as _json
-_data=_json.load(open(os.path.join(ROOT,'content.json'),encoding='utf-8'))
+import json as _json, glob as _glob
+_data={}
+for _fp in sorted(_glob.glob(os.path.join(ROOT,'content','*.json'))):
+    _data.update(_json.load(open(_fp,encoding='utf-8')))
 SITE=_data['site']; URL=SITE['url']; PHONE_D=SITE['phone_display']; PHONE_L=SITE['phone_link']; EMAIL=SITE['email']; BRAND=SITE['brand']
 T=_data['chrome']; HOME=_data['home']; HOMETITLE=_data['home_title']; SVC_CHROME=_data['svc_chrome']
 SERVICES=_data['services']; CENI=_data['ceni']; CENITITLE=_data['ceni_title']
@@ -657,19 +659,19 @@ os.makedirs(OUT, exist_ok=True)
 #  BUILD BOTH LANGUAGES
 # =====================================================================
 for lang in ('bg','en'):
-    write(lang,'index.html', doc(lang,'index.html','', *HOMETITLE[lang], home_body(lang)))
-    for f,(ic,data) in SERVICES.items():
-        title,desc,h1,lead,feats = data[lang]
-        write(lang,f, doc(lang,f,'val',title,desc, service_body(lang,ic,h1,lead,feats)))
-    write(lang,'ceni.html', doc(lang,'ceni.html','val',*CENITITLE[lang], ceni_body(lang)))
-    write(lang,'za-nas.html', doc(lang,'za-nas.html','about',*ABOUT[lang]['title'], about_body(lang)))
-    write(lang,'metodologia.html', doc(lang,'metodologia.html','about',*METH[lang]['title'], meth_body(lang)))
-    write(lang,'ocenitelska-mreja.html', doc(lang,'ocenitelska-mreja.html','about',*NET[lang]['title'], net_body(lang)))
-    write(lang,'klienti.html', doc(lang,'klienti.html','clients',*CLI[lang]['title'], cli_body(lang)))
-    write(lang,'blog.html', doc(lang,'blog.html','blog',*BLOG[lang]['title'], blog_body(lang)))
-    write(lang,'vyprosi.html', doc(lang,'vyprosi.html','faq',*FAQ[lang]['title'], faq_body(lang)))
-    write(lang,'kontakti.html', doc(lang,'kontakti.html','contact',*KON[lang]['title'], kon_body(lang)))
-    write(lang,'404.html', doc(lang,'index.html','', NF[lang][0], NF[lang][4], nf_body(lang)))
+    write(lang,'index.html', doc(lang,'index.html','', HOMETITLE[lang]['title'], HOMETITLE[lang]['desc'], home_body(lang)))
+    for sv in SERVICES:
+        f=sv['file']; dd=sv[lang]
+        write(lang,f, doc(lang,f,'val',dd['title'],dd['desc'], service_body(lang,sv['icon'],dd['h1'],dd['lead'],dd['features'])))
+    write(lang,'ceni.html', doc(lang,'ceni.html','val',CENITITLE[lang]['title'], CENITITLE[lang]['desc'], ceni_body(lang)))
+    write(lang,'za-nas.html', doc(lang,'za-nas.html','about',ABOUT[lang]['title']['title'], ABOUT[lang]['title']['desc'], about_body(lang)))
+    write(lang,'metodologia.html', doc(lang,'metodologia.html','about',METH[lang]['title']['title'], METH[lang]['title']['desc'], meth_body(lang)))
+    write(lang,'ocenitelska-mreja.html', doc(lang,'ocenitelska-mreja.html','about',NET[lang]['title']['title'], NET[lang]['title']['desc'], net_body(lang)))
+    write(lang,'klienti.html', doc(lang,'klienti.html','clients',CLI[lang]['title']['title'], CLI[lang]['title']['desc'], cli_body(lang)))
+    write(lang,'blog.html', doc(lang,'blog.html','blog',BLOG[lang]['title']['title'], BLOG[lang]['title']['desc'], blog_body(lang)))
+    write(lang,'vyprosi.html', doc(lang,'vyprosi.html','faq',FAQ[lang]['title']['title'], FAQ[lang]['title']['desc'], faq_body(lang)))
+    write(lang,'kontakti.html', doc(lang,'kontakti.html','contact',KON[lang]['title']['title'], KON[lang]['title']['desc'], kon_body(lang)))
+    write(lang,'404.html', doc(lang,'index.html','', NF[lang]['title'], NF[lang]['p'], nf_body(lang)))
     print(f"built all pages for: {lang}")
 print("DONE")
 

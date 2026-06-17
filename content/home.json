@@ -1,0 +1,268 @@
+{
+  "home": {
+    "bg": {
+      "eyebrow": "20 години на пазара",
+      "h1": "Независими <em>експертни оценки</em> на активи в България",
+      "lead": "Пазарни оценки на недвижими имоти, бизнес, машини и земеделска земя — изготвени бързо, прецизно и в съответствие с международните стандарти.",
+      "cta1": "Заяви оценка",
+      "cta2": "Виж цените",
+      "cr1": "<b>КНОБ</b>&nbsp;регистриран",
+      "cr2": "Вещо лице",
+      "cr3": "Одобрен от банки",
+      "cr4": "София и региона",
+      "vc_aria": "Примерна сертифицирана оценка на апартамент",
+      "vc_badge": "СЕРТИФИЦИРАНА ОЦЕНКА",
+      "vc_title": "Оценка на апартамент",
+      "vc_sub": "гр. София · 98 м² · 2025",
+      "vc_r1": "Метод",
+      "vc_v1": "Пазарен подход",
+      "vc_r2": "Състояние",
+      "vc_v2": "Завършено",
+      "vc_r3": "Срок",
+      "vc_v3": "3–5 дни",
+      "vc_val": "Пазарна стойност",
+      "sv_eye": "Услуги",
+      "sv_h": "Какво оценяваме",
+      "sv_p": "Пълен набор от оценителски услуги за частни лица, бизнес и институции.",
+      "more": "Научи повече →",
+      "pr_eye": "Процес",
+      "pr_h": "Как протича една оценка",
+      "cta_h": "Готови сте да заявите оценка?",
+      "cta_p": "Свържете се с нас за безплатна консултация и индивидуална оферта.",
+      "ts_eye": "Клиенти",
+      "ts_h": "Какво казват за нас",
+      "stats": [
+        {
+          "value": "20",
+          "suffix": "+",
+          "label": "години опит"
+        },
+        {
+          "value": "15000",
+          "suffix": "+",
+          "label": "изготвени оценки"
+        },
+        {
+          "value": "100",
+          "suffix": "+",
+          "label": "оценители в мрежата"
+        },
+        {
+          "value": "28",
+          "suffix": "",
+          "label": "области покритие"
+        }
+      ],
+      "cards": [
+        {
+          "icon": "home",
+          "title": "Недвижими имоти",
+          "desc": "Апартаменти, къщи, офиси, търговски и индустриални имоти.",
+          "url": "ocenki-nedvizhimi-imoti.html"
+        },
+        {
+          "icon": "chart",
+          "title": "Бизнес оценки",
+          "desc": "Оценка на предприятия, дялове и капиталови инструменти.",
+          "url": "ocenki-biznes.html"
+        },
+        {
+          "icon": "cog",
+          "title": "Машини и съоръжения",
+          "desc": "Производствено оборудване, превозни средства, инвентар.",
+          "url": "ocenki-mashini.html"
+        },
+        {
+          "icon": "bulb",
+          "title": "Нематериални активи",
+          "desc": "Търговски марки, патенти, ноу-хау и репутация.",
+          "url": "ocenki-nematerialni.html"
+        },
+        {
+          "icon": "sprout",
+          "title": "Земеделски земи",
+          "desc": "Ниви, трайни насаждения, поземлени имоти и терени.",
+          "url": "ocenki-zemedelski-zemi.html"
+        },
+        {
+          "icon": "clipboard",
+          "title": "Допълващи услуги",
+          "desc": "Консултации, анализи и експертни становища.",
+          "url": "ocenki-dopalvashti.html"
+        }
+      ],
+      "steps": [
+        {
+          "title": "Запитване",
+          "desc": "Изпращате ни описание на обекта за оценяване по телефон или имейл."
+        },
+        {
+          "title": "Оферта и договор",
+          "desc": "Получавате конкретна цена и срок в рамките на 24 часа."
+        },
+        {
+          "title": "Оглед",
+          "desc": "Наш оценител извършва оглед на място и събира необходимите данни."
+        },
+        {
+          "title": "Доклад",
+          "desc": "Получавате готовия експертен доклад в договорения срок."
+        }
+      ],
+      "quotes": [
+        {
+          "text": "Изключително задоволни от бързото и прецизно изготвяне на оценката. Екипът надхвърли нашите очаквания за професионализъм.",
+          "name": "Име Фамилия",
+          "role": "Длъжност, Компания ООД"
+        },
+        {
+          "text": "Благодарни сме за ползотворното сътрудничество. Ще продължим да работим заедно с компанията.",
+          "name": "Име Фамилия",
+          "role": "Длъжност, Компания АД"
+        },
+        {
+          "text": "Качество и кратък срок благодарение на широката оценителска мрежа в цялата страна.",
+          "name": "Име Фамилия",
+          "role": "Компания ЕАД"
+        }
+      ]
+    },
+    "en": {
+      "eyebrow": "20 years in the market",
+      "h1": "Independent <em>expert valuations</em> of assets in Bulgaria",
+      "lead": "Market valuations of real estate, businesses, machinery and agricultural land — delivered quickly, precisely and in line with international standards.",
+      "cta1": "Request a Valuation",
+      "cta2": "View Pricing",
+      "cr1": "<b>CIAB</b>&nbsp;registered",
+      "cr2": "Court expert",
+      "cr3": "Bank approved",
+      "cr4": "Sofia & region",
+      "vc_aria": "Sample certified apartment valuation",
+      "vc_badge": "CERTIFIED VALUATION",
+      "vc_title": "Apartment valuation",
+      "vc_sub": "Sofia · 98 m² · 2025",
+      "vc_r1": "Method",
+      "vc_v1": "Market approach",
+      "vc_r2": "Condition",
+      "vc_v2": "Completed",
+      "vc_r3": "Turnaround",
+      "vc_v3": "3–5 days",
+      "vc_val": "Market value",
+      "sv_eye": "Services",
+      "sv_h": "What We Value",
+      "sv_p": "A full range of valuation services for individuals, businesses and institutions.",
+      "more": "Learn more →",
+      "pr_eye": "Process",
+      "pr_h": "How a valuation works",
+      "cta_h": "Ready to request a valuation?",
+      "cta_p": "Contact us for a free consultation and an individual quote.",
+      "ts_eye": "Clients",
+      "ts_h": "What they say about us",
+      "stats": [
+        {
+          "value": "20",
+          "suffix": "+",
+          "label": "years of experience"
+        },
+        {
+          "value": "15000",
+          "suffix": "+",
+          "label": "valuations completed"
+        },
+        {
+          "value": "100",
+          "suffix": "+",
+          "label": "appraisers in the network"
+        },
+        {
+          "value": "28",
+          "suffix": "",
+          "label": "regions covered"
+        }
+      ],
+      "cards": [
+        {
+          "icon": "home",
+          "title": "Real Estate",
+          "desc": "Apartments, houses, offices, commercial and industrial properties.",
+          "url": "ocenki-nedvizhimi-imoti.html"
+        },
+        {
+          "icon": "chart",
+          "title": "Business Valuation",
+          "desc": "Valuation of enterprises, shares and equity instruments.",
+          "url": "ocenki-biznes.html"
+        },
+        {
+          "icon": "cog",
+          "title": "Machinery & Equipment",
+          "desc": "Production equipment, vehicles and inventory.",
+          "url": "ocenki-mashini.html"
+        },
+        {
+          "icon": "bulb",
+          "title": "Intangible Assets",
+          "desc": "Trademarks, patents, know-how and goodwill.",
+          "url": "ocenki-nematerialni.html"
+        },
+        {
+          "icon": "sprout",
+          "title": "Agricultural Land",
+          "desc": "Arable land, permanent crops, plots and parcels.",
+          "url": "ocenki-zemedelski-zemi.html"
+        },
+        {
+          "icon": "clipboard",
+          "title": "Additional Services",
+          "desc": "Consulting, analyses and expert opinions.",
+          "url": "ocenki-dopalvashti.html"
+        }
+      ],
+      "steps": [
+        {
+          "title": "Enquiry",
+          "desc": "You send us a description of the asset by phone or email."
+        },
+        {
+          "title": "Quote & contract",
+          "desc": "You receive a firm price and timeline within 24 hours."
+        },
+        {
+          "title": "Inspection",
+          "desc": "Our appraiser inspects the site and collects the required data."
+        },
+        {
+          "title": "Report",
+          "desc": "You receive the completed expert report within the agreed deadline."
+        }
+      ],
+      "quotes": [
+        {
+          "text": "Extremely satisfied with the fast and precise valuation. The team exceeded our expectations for professionalism.",
+          "name": "Name Surname",
+          "role": "Position, Company Ltd"
+        },
+        {
+          "text": "We are grateful for the productive cooperation and will continue to work together.",
+          "name": "Name Surname",
+          "role": "Position, Company JSC"
+        },
+        {
+          "text": "Quality and short turnaround thanks to the broad appraiser network across the country.",
+          "name": "Name Surname",
+          "role": "Company Plc"
+        }
+      ]
+    }
+  },
+  "home_title": {
+    "bg": {
+      "title": "Valoris Asset – Експертни пазарни оценки в България",
+      "desc": "Независими пазарни оценки на недвижими имоти, бизнес, машини и земеделска земя. Над 20 години опит и национална оценителска мрежа."
+    },
+    "en": {
+      "title": "Valoris Asset – Expert market valuations in Bulgaria",
+      "desc": "Independent market valuations of real estate, businesses, machinery and agricultural land. Over 20 years of experience and a nationwide network."
+    }
+  }
+}

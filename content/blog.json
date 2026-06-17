@@ -1,0 +1,98 @@
+{
+  "blog": {
+    "bg": {
+      "eye": "Блог",
+      "h1": "Актуално",
+      "hp": "Новини, анализи и полезни статии от света на оценяването.",
+      "title": {
+        "title": "Блог – Valoris Asset",
+        "desc": "Новини, анализи и полезни статии за пазарните оценки в България."
+      },
+      "posts": [
+        {
+          "icon": "clipboard",
+          "date": "15 ЯНУАРИ 2025",
+          "title": "Как се определя пазарната стойност на жилище",
+          "excerpt": "Основните фактори, които влияят върху оценката на апартамент или къща."
+        },
+        {
+          "icon": "chart",
+          "date": "02 ФЕВРУАРИ 2025",
+          "title": "Кога е необходима бизнес оценка",
+          "excerpt": "Типичните ситуации, в които компаниите се нуждаят от професионална оценка."
+        },
+        {
+          "icon": "landmark",
+          "date": "20 МАРТ 2025",
+          "title": "Оценка за банков кредит — какво да очаквате",
+          "excerpt": "Процесът при изготвяне на оценка за ипотечно кредитиране."
+        },
+        {
+          "icon": "sprout",
+          "date": "05 АПРИЛ 2025",
+          "title": "Особености при оценка на земеделска земя",
+          "excerpt": "Кои фактори определят стойността на нивите и насажденията."
+        },
+        {
+          "icon": "cog",
+          "date": "18 МАЙ 2025",
+          "title": "Амортизация при оценка на машини",
+          "excerpt": "Как се отчита износването на производственото оборудване."
+        },
+        {
+          "icon": "euro",
+          "date": "01 ЮНИ 2025",
+          "title": "Преминаване към еврото и оценките",
+          "excerpt": "Какво се променя в ценоразписа след въвеждането на еврото."
+        }
+      ]
+    },
+    "en": {
+      "eye": "Blog",
+      "h1": "News",
+      "hp": "News, analyses and useful articles from the world of valuation.",
+      "title": {
+        "title": "Blog – Valoris Asset",
+        "desc": "News, analyses and useful articles on market valuations in Bulgaria."
+      },
+      "posts": [
+        {
+          "icon": "clipboard",
+          "date": "15 JANUARY 2025",
+          "title": "How a home's market value is determined",
+          "excerpt": "The main factors that influence the valuation of an apartment or house."
+        },
+        {
+          "icon": "chart",
+          "date": "02 FEBRUARY 2025",
+          "title": "When you need a business valuation",
+          "excerpt": "Typical situations where companies need a professional valuation."
+        },
+        {
+          "icon": "landmark",
+          "date": "20 MARCH 2025",
+          "title": "Valuation for a bank loan — what to expect",
+          "excerpt": "The process of preparing a valuation for mortgage lending."
+        },
+        {
+          "icon": "sprout",
+          "date": "05 APRIL 2025",
+          "title": "Specifics of valuing agricultural land",
+          "excerpt": "Which factors determine the value of fields and crops."
+        },
+        {
+          "icon": "cog",
+          "date": "18 MAY 2025",
+          "title": "Depreciation in machinery valuation",
+          "excerpt": "How wear of production equipment is accounted for."
+        },
+        {
+          "icon": "euro",
+          "date": "01 JUNE 2025",
+          "title": "The euro changeover and valuations",
+          "excerpt": "What changes in the price list after the euro is introduced."
+        }
+      ]
+    }
+  }
+}

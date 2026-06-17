@@ -1,0 +1,20 @@
+{
+  "notfound": {
+    "bg": {
+      "title": "Страницата не е намерена – Valoris Asset",
+      "alt": "404 – страницата не е намерена",
+      "eyebrow": "Грешка 404",
+      "h1": "Страницата не е намерена",
+      "p": "Възможно е връзката да е остаряла или преместена.",
+      "button": "Към началото"
+    },
+    "en": {
+      "title": "Page not found – Valoris Asset",
+      "alt": "404 – page not found",
+      "eyebrow": "Error 404",
+      "h1": "Page not found",
+      "p": "The link may be outdated or moved.",
+      "button": "Back to home"
+    }
+  }
+}
