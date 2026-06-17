@@ -50,10 +50,10 @@ robots.txt / sitemap.xml / site.webmanifest
 2. ШРИФТОВЕ: сменят се чрез --font-display и --font-body в :root + линка към
    Google Fonts в <head> на всяка страница.
 3. ТЕКСТ И ЦЕНИ: редактирайте директно в .html файловете. Заменете примерните
-   данни (ВалуПро, 0800 99 999, info@valuepro.bg, "Име Фамилия", "Компания ООД").
+   данни (ВалуПро, 0800 99 999, info@valorisasset.bg, "Име Фамилия", "Компания ООД").
 4. ЛОГО: в навигацията на всяка страница (class="logo"). Заменете буквата/марката
    или сложете <img> с вашето лого.
-5. ДОМЕЙН: заменете https://www.valuepro.bg в sitemap.xml, robots.txt и в
+5. ДОМЕЙН: заменете https://www.valorisasset.bg в sitemap.xml, robots.txt и в
    canonical/og:url мета таговете на всяка страница с вашия реален домейн.
 6. JSON-LD: блокът <script type="application/ld+json"> в <head> — обновете
    име, телефон, имейл, адрес.

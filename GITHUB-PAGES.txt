@@ -1,0 +1,23 @@
+КАК ДА КАЧИТЕ ПРАВИЛНО НА GITHUB PAGES — Valoris Asset
+======================================================
+ВАЖНО: трябва да има САМО ЕДИН index.html в корена. Изтрийте старите версии.
+
+СТЪПКИ
+1. Изтрийте ВСИЧКО старо в repo-то (всички стари index.html и файлове).
+2. Качете СЪДЪРЖАНИЕТО на този пакет в КОРЕНА (index.html, ceni.html, assets/,
+   en/, 404.html, .nojekyll ...). НЕ качвайте папка „site".
+3. Settings → Pages → Source: Deploy from a branch → main → /(root).
+4. Изчакайте 1–2 мин. Проверка: `find . -name index.html` трябва да върне
+   само ./index.html и ./en/index.html.
+
+GITHUB PAGES — бележки
+✔ Всички страници, тема, форми, превключвател BG⇄EN (JS-базиран — работи и на
+  под-път https://USERNAME.github.io/REPO/), папка /en/, 404.html, HTTPS, лого/иконите.
+✘ .htaccess се игнорира (Apache файл) → security header-ите от него не действат.
+  CSP мета-тагът работи. За истински header-и: Cloudflare / Netlify / Vercel.
+
+ДОМЕЙН (SEO): сменете https://www.valorisasset.bg с реалния адрес в
+canonical/og:url/hreflang и в sitemap.xml/robots.txt. Бърза замяна:
+  grep -rl 'www.valorisasset.bg' . | xargs sed -i 's#https://www.valorisasset.bg#https://USERNAME.github.io/REPO#g'
+
+ЛОГО: assets/logo.jpg (оригинал, og:image) и assets/favicon.png (икона за таб).

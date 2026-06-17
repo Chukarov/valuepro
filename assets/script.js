@@ -137,6 +137,30 @@
     });
   }
 
+  /* ---- Language toggle (URL-derived, hosting-proof) ---- */
+  function langTarget() {
+    var path = location.pathname;
+    var isEN = /(^|\/)en(\/|$)/.test(path);
+    var t;
+    if (isEN) {
+      t = path.replace(/\/en(\/|$)/, '/');            // EN -> BG: drop /en segment
+    } else {
+      var i = path.lastIndexOf('/');                    // BG -> EN: insert en/ before file
+      t = path.slice(0, i + 1) + 'en/' + path.slice(i + 1);
+    }
+    return t + location.search + location.hash;
+  }
+  function initLang() {
+    var sw = document.querySelector('.lang-switch');
+    if (!sw) return;
+    sw.setAttribute('href', langTarget());              // correct the static href on load
+    sw.addEventListener('click', function (e) {
+      e.preventDefault();
+      try { localStorage.setItem('vp-lang', sw.getAttribute('data-lang')); } catch (_) {}
+      location.href = langTarget();
+    });
+  }
+
   /* ---- Wire up ---- */
   document.addEventListener('DOMContentLoaded', function () {
     var tb = document.getElementById('themeToggle');
@@ -148,7 +172,6 @@
     window.addEventListener('scroll', onScroll, { passive: true });
     onScroll();
     initReveal(); initFaq(); initCookie(); initForm();
-    var ls = document.querySelector('.lang-switch');
-    if (ls) ls.addEventListener('click', function () { try { localStorage.setItem('vp-lang', ls.getAttribute('data-lang')); } catch (e) {} });
+    initLang();
   });
 })();
