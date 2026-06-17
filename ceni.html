@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="bg" data-theme-default>
+<html lang="bg">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,15 +7,16 @@
 <meta name="description" content="Прозрачен ценоразпис за оценки на недвижими имоти, машини, съоръжения и земеделска земя.">
 <meta name="theme-color" content="#0f1d33">
 <link rel="canonical" href="https://www.valuepro.bg/ceni.html">
-<!-- Open Graph -->
+<link rel="alternate" hreflang="bg" href="https://www.valuepro.bg/ceni.html">
+<link rel="alternate" hreflang="en" href="https://www.valuepro.bg/en/ceni.html">
+<link rel="alternate" hreflang="x-default" href="https://www.valuepro.bg/ceni.html">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="bg_BG">
-<meta property="og:site_name" content="ВалуПро">
+<meta property="og:site_name" content="ВалуПро Експертни Оценки">
 <meta property="og:title" content="Цени за оценки – ВалуПро">
 <meta property="og:description" content="Прозрачен ценоразпис за оценки на недвижими имоти, машини, съоръжения и земеделска земя.">
 <meta property="og:url" content="https://www.valuepro.bg/ceni.html">
 <meta name="twitter:card" content="summary_large_image">
-<!-- Content Security Policy (tighten with nonces server-side; 'unsafe-inline' kept for JSON-LD + inline styles) -->
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: https:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self' 'unsafe-inline'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,11 +31,11 @@
 <a class="skip-link" href="#main">Към съдържанието</a>
 <header class="nav">
   <div class="nav-inner">
-    <a href="index.html" class="logo" aria-label="ВалуПро — начало">
+    <a href="index.html" class="logo" aria-label="ВалуПро">
       <span class="logo-mark"><span>В</span></span>
       <span class="logo-text">Валу<b>Про</b></span>
     </a>
-    <nav aria-label="Главно меню">
+    <nav aria-label="Меню">
     <ul class="nav-links" id="navLinks">
       <li class="has-drop">
         <a href="ocenki-nedvizhimi-imoti.html" class="active">Оценки</a>
@@ -63,6 +64,7 @@
     </ul>
     </nav>
     <div class="nav-actions">
+      <a class="lang-switch" href="en/ceni.html" hreflang="en" aria-label="Switch to English" data-lang="en"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a14 14 0 0 1 0 18 14 14 0 0 1 0-18Z"/></svg>EN</a>
       <button class="icon-btn theme-toggle" id="themeToggle" aria-label="Смяна на тема (светла/тъмна)">
         <span class="sun"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg></span><span class="moon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg></span>
       </button>
@@ -72,18 +74,11 @@
   </div>
 </header>
 <main id="main">
-<section class="hero hero-sm">
-  <div class="hero-inner"><div class="reveal">
-    <span class="eyebrow">Ценоразпис</span>
-    <h1>Цени за <em>експертни оценки</em></h1>
-    <p>Прозрачни и конкурентни цени за всички видове пазарни оценки. Без скрити такси.</p>
-  </div></div>
-</section>
+<section class="hero hero-sm"><div class="hero-inner"><div class="reveal">
+  <span class="eyebrow">Ценоразпис</span><h1>Цени за <em>експертни оценки</em></h1><p>Прозрачни и конкурентни цени за всички видове пазарни оценки. Без скрити такси.</p>
+</div></div></section>
 <section class="section"><div class="wrap">
-  <div class="row-head reveal"><span class="row-badge">01</span><h2>Оценка на недвижим имот</h2><div class="row-line"></div></div>
-  <div class="table-wrap reveal"><table>
-    <thead><tr><th>Вид имот / актив</th><th class="c">Такса (EUR с ДДС)</th><th class="c">Такса (BGN с ДДС)</th><th class="c">Срок (дни)</th></tr></thead>
-    <tbody>
+  <div class="row-head reveal"><span class="row-badge">01</span><h2>Оценка на недвижим имот</h2><div class="row-line"></div></div><div class="table-wrap reveal"><table><thead><tr><th>Вид имот / актив</th><th class="c">Такса (EUR с ДДС)</th><th class="c">Такса (BGN с ДДС)</th><th class="c">Срок (дни)</th></tr></thead><tbody>
       <tr class="b"><td><strong>Апартамент до 150 м² – завършено</strong></td><td class="price-eur">€150</td><td class="price-bgn">293,37 лв.</td><td class="days">3–5</td></tr>
       <tr class="b"><td><strong>Апартамент до 150 м² – незавършено</strong></td><td class="price-eur">€180</td><td class="price-bgn">352,05 лв.</td><td class="days">3–5</td></tr>
       <tr class="extra"><td>Доплащане за гараж или паркомясто</td><td class="price-eur">€42</td><td class="price-bgn">82,14 лв.</td><td class="days">3–5</td></tr>
@@ -95,52 +90,32 @@
       <tr class="b"><td><strong>Търговски обект до 200 м²</strong></td><td class="price-eur">€240</td><td class="price-bgn">469,40 лв.</td><td class="days">3–5</td></tr>
       <tr class="extra"><td>Доплащане за всеки допълнителни 200 м²</td><td class="price-eur">€72</td><td class="price-bgn">140,82 лв.</td><td class="days">–</td></tr>
       <tr><td><span class="express">ЕКСПРЕСНА</span> Оценка (до 2 дни)</td><td class="price-eur" colspan="2" style="text-align:center;color:var(--accent);font-size:.85rem;">+50% от основното възнаграждение</td><td class="days">до 2</td></tr>
-    </tbody>
-  </table></div>
-
-  <div class="row-head reveal" style="margin-top:2.4rem;"><span class="row-badge">02</span><h2>Сгради с прилежаща земя</h2><div class="row-line"></div></div>
-  <div class="table-wrap reveal"><table>
-    <thead><tr><th>Вид имот / актив</th><th class="c">Такса (EUR с ДДС)</th><th class="c">Такса (BGN с ДДС)</th><th class="c">Срок (дни)</th></tr></thead>
-    <tbody>
+    </tbody></table></div>
+  <div class="row-head reveal" style="margin-top:2.4rem;"><span class="row-badge">02</span><h2>Сгради с прилежаща земя</h2><div class="row-line"></div></div><div class="table-wrap reveal"><table><thead><tr><th>Вид имот / актив</th><th class="c">Такса (EUR с ДДС)</th><th class="c">Такса (BGN с ДДС)</th><th class="c">Срок (дни)</th></tr></thead><tbody>
       <tr class="b"><td><strong>Едноетажна къща със ЗП до 150 м²</strong></td><td class="price-eur">€216</td><td class="price-bgn">422,46 лв.</td><td class="days">3</td></tr>
       <tr class="extra"><td>Доплащане за всеки допълнителен етаж/постройка</td><td class="price-eur">€60</td><td class="price-bgn">117,35 лв.</td><td class="days">–</td></tr>
       <tr class="b"><td><strong>Къща над 150 м² или „луксозен имот"</strong></td><td class="price-eur"><span class="neg">по договаряне</span><span class="min">минимум €360</span></td><td class="price-bgn"><span class="min">мин. 704,10 лв.</span></td><td class="days">5</td></tr>
-    </tbody>
-  </table></div>
+    </tbody></table></div>
   <p class="footnote reveal">* Цените са преизчислени по курс 1 EUR = 1,95583 BGN и закръглени до два знака. За нестандартни обекти цената е по индивидуално договаряне.</p>
-
-  <div class="row-head reveal"><span class="row-badge">03</span><h2>Машини и съоръжения</h2><div class="row-line"></div></div>
-  <div class="table-wrap reveal"><table>
-    <thead><tr><th>Вид оценяван актив</th><th class="c">Такса (EUR с ДДС)</th><th class="c">Такса (BGN с ДДС)</th><th class="c">Срок (дни)</th></tr></thead>
-    <tbody>
-      <tr><td>Лек автомобил</td><td class="price-eur">€120</td><td class="price-bgn">234,70 лв.</td><td class="days">2</td></tr>
-      <tr><td>Товарен автомобил</td><td class="price-eur">€160</td><td class="price-bgn">312,93 лв.</td><td class="days">2</td></tr>
-      <tr><td>Селскостопанска машина</td><td class="price-eur">€150</td><td class="price-bgn">293,37 лв.</td><td class="days">2</td></tr>
-      <tr><td>Прикачен инвентар</td><td class="price-eur">€110</td><td class="price-bgn">215,14 лв.</td><td class="days">2</td></tr>
-      <tr><td>Производствена машина – самостоятелна</td><td class="price-eur"><span class="neg">по договаряне</span><span class="min">мин. €300</span></td><td class="price-bgn"><span class="min">мин. 586,75 лв.</span></td><td class="days">3</td></tr>
-      <tr><td>Поточна линия</td><td class="price-eur"><span class="neg">по договаряне</span><span class="min">мин. €360</span></td><td class="price-bgn"><span class="min">мин. 704,10 лв.</span></td><td class="days">4–6</td></tr>
-      <tr><td>Компютърна техника, материални запаси</td><td class="price-eur"><span class="neg">по договаряне</span></td><td class="price-bgn">–</td><td class="days">–</td></tr>
-    </tbody>
-  </table></div>
-
-  <div class="row-head reveal"><span class="row-badge">04</span><h2>Земеделска земя</h2><div class="row-line"></div></div>
-  <div class="table-wrap reveal"><table>
-    <thead><tr><th>Вид оценяван актив</th><th class="c">Такса (EUR с ДДС)</th><th class="c">Такса (BGN с ДДС)</th><th class="c">Срок (дни)</th></tr></thead>
-    <tbody>
-      <tr><td>Земеделска земя – поземлен имот (1 бр.)</td><td class="price-eur">€130</td><td class="price-bgn">254,26 лв.</td><td class="days">3</td></tr>
+  <div class="row-head reveal"><span class="row-badge">03</span><h2>Машини и съоръжения</h2><div class="row-line"></div></div><div class="table-wrap reveal"><table><thead><tr><th>Вид оценяван актив</th><th class="c">Такса (EUR с ДДС)</th><th class="c">Такса (BGN с ДДС)</th><th class="c">Срок (дни)</th></tr></thead><tbody>
+      <tr class=""><td>Лек автомобил</td><td class="price-eur">€120</td><td class="price-bgn">234,70 лв.</td><td class="days">2</td></tr>
+      <tr class=""><td>Товарен автомобил</td><td class="price-eur">€160</td><td class="price-bgn">312,93 лв.</td><td class="days">2</td></tr>
+      <tr class=""><td>Селскостопанска машина</td><td class="price-eur">€150</td><td class="price-bgn">293,37 лв.</td><td class="days">2</td></tr>
+      <tr class=""><td>Прикачен инвентар</td><td class="price-eur">€110</td><td class="price-bgn">215,14 лв.</td><td class="days">2</td></tr>
+      <tr class=""><td>Производствена машина – самостоятелна</td><td class="price-eur"><span class="neg">по договаряне</span><span class="min">минимум €300</span></td><td class="price-bgn"><span class="min">мин. 586,75 лв.</span></td><td class="days">3</td></tr>
+      <tr class=""><td>Поточна линия</td><td class="price-eur"><span class="neg">по договаряне</span><span class="min">минимум €360</span></td><td class="price-bgn"><span class="min">мин. 704,10 лв.</span></td><td class="days">4–6</td></tr>
+      <tr class=""><td>Компютърна техника, материални запаси</td><td class="price-eur"><span class="neg">по договаряне</span></td><td class="price-bgn">–</td><td class="days">–</td></tr>
+    </tbody></table></div>
+  <div class="row-head reveal"><span class="row-badge">04</span><h2>Земеделска земя</h2><div class="row-line"></div></div><div class="table-wrap reveal"><table><thead><tr><th>Вид оценяван актив</th><th class="c">Такса (EUR с ДДС)</th><th class="c">Такса (BGN с ДДС)</th><th class="c">Срок (дни)</th></tr></thead><tbody>
+      <tr class=""><td>Земеделска земя – поземлен имот (1 бр.)</td><td class="price-eur">€130</td><td class="price-bgn">254,26 лв.</td><td class="days">3</td></tr>
       <tr class="extra"><td>Доплащане за всеки допълнителен парцел</td><td class="price-eur"><span class="neg">по договаряне</span></td><td class="price-bgn"><span class="neg">по договаряне</span></td><td class="days">–</td></tr>
-      <tr><td>Земеделска земя с трайни насаждения</td><td class="price-eur"><span class="neg">по договаряне</span><span class="min">мин. €312</span></td><td class="price-bgn"><span class="min">мин. 610,22 лв.</span></td><td class="days">5</td></tr>
-      <tr><td>Празен терен (УПИ, ПИ) без разрешение</td><td class="price-eur"><span class="neg">по договаряне</span><span class="min">мин. €174</span></td><td class="price-bgn"><span class="min">мин. 340,31 лв.</span></td><td class="days">3</td></tr>
-      <tr><td>УПИ с разрешение за строеж</td><td class="price-eur"><span class="neg">по договаряне</span><span class="min">мин. €360</span></td><td class="price-bgn"><span class="min">мин. 704,10 лв.</span></td><td class="days">5</td></tr>
-    </tbody>
-  </table></div>
-
-  <div class="cta reveal" style="margin-top:3rem;">
-    <div><h3>Нужна ви е индивидуална оферта?</h3><p>Изпратете ни списък с обектите и техните характеристики — отговаряме до 24 часа.</p></div>
-    <div class="actions"><a href="kontakti.html" class="btn btn-accent btn-lg">Изпратете запитване</a><a href="tel:+359800999999" class="btn btn-ghost-light btn-lg">0800 99 999</a></div>
-  </div>
-</div></section>
-</main>
+      <tr class=""><td>Земеделска земя с трайни насаждения</td><td class="price-eur"><span class="neg">по договаряне</span><span class="min">минимум €312</span></td><td class="price-bgn"><span class="min">мин. 610,22 лв.</span></td><td class="days">5</td></tr>
+      <tr class=""><td>Празен терен (УПИ, ПИ) без разрешение</td><td class="price-eur"><span class="neg">по договаряне</span><span class="min">минимум €174</span></td><td class="price-bgn"><span class="min">мин. 340,31 лв.</span></td><td class="days">3</td></tr>
+      <tr class=""><td>УПИ с разрешение за строеж</td><td class="price-eur"><span class="neg">по договаряне</span><span class="min">минимум €360</span></td><td class="price-bgn"><span class="min">мин. 704,10 лв.</span></td><td class="days">5</td></tr>
+    </tbody></table></div>
+  <div class="cta reveal" style="margin-top:3rem;"><div><h3>Нужна ви е индивидуална оферта?</h3><p>Изпратете ни списък с обектите и техните характеристики — отговаряме до 24 часа.</p></div>
+  <div class="actions"><a href="kontakti.html" class="btn btn-accent btn-lg">Изпратете запитване</a><a href="tel:+359800999999" class="btn btn-ghost-light btn-lg">0800 99 999</a></div></div>
+</div></section></main>
 <footer>
   <div class="f-inner">
     <div class="f-brand">
@@ -151,40 +126,28 @@
         <a href="#" aria-label="LinkedIn" rel="noopener noreferrer" target="_blank">in</a>
       </div>
     </div>
-    <div>
-      <h4>Услуги</h4>
-      <ul>
-        <li><a href="ocenki-nedvizhimi-imoti.html">Недвижими имоти</a></li>
-        <li><a href="ocenki-biznes.html">Бизнес оценки</a></li>
-        <li><a href="ocenki-mashini.html">Машини и съоръжения</a></li>
-        <li><a href="ocenki-zemedelski-zemi.html">Земеделски земи</a></li>
-        <li><a href="ocenki-nematerialni.html">Нематериални активи</a></li>
-      </ul>
-    </div>
-    <div>
-      <h4>Информация</h4>
-      <ul>
-        <li><a href="za-nas.html">За нас</a></li>
-        <li><a href="ceni.html">Ценоразпис</a></li>
-        <li><a href="metodologia.html">Методология</a></li>
-        <li><a href="vyprosi.html">Въпроси</a></li>
-        <li><a href="kontakti.html">Контакти</a></li>
-      </ul>
-    </div>
-    <div>
-      <h4>Контакт</h4>
-      <ul>
-        <li><a href="tel:+359800999999">0800 99 999</a></li>
-        <li><a href="mailto:info@valuepro.bg">info@valuepro.bg</a></li>
-        <li>София, ул. Примерна 1</li>
-        <li>Пон–Пет: 9:00–18:00</li>
-      </ul>
-    </div>
+    <div><h4>Услуги</h4><ul>
+      <li><a href="ocenki-nedvizhimi-imoti.html">Недвижими имоти</a></li>
+      <li><a href="ocenki-biznes.html">Бизнес оценки</a></li>
+      <li><a href="ocenki-mashini.html">Машини и съоръжения</a></li>
+      <li><a href="ocenki-zemedelski-zemi.html">Земеделски земи</a></li>
+      <li><a href="ocenki-nematerialni.html">Нематериални активи</a></li>
+    </ul></div>
+    <div><h4>Информация</h4><ul>
+      <li><a href="za-nas.html">За нас</a></li>
+      <li><a href="ceni.html">Ценоразпис</a></li>
+      <li><a href="metodologia.html">Методология</a></li>
+      <li><a href="vyprosi.html">Въпроси</a></li>
+      <li><a href="kontakti.html">Контакти</a></li>
+    </ul></div>
+    <div><h4>Контакт</h4><ul>
+      <li><a href="tel:+359800999999">0800 99 999</a></li>
+      <li><a href="mailto:info@valuepro.bg">info@valuepro.bg</a></li>
+      <li>София, ул. Примерна 1</li>
+      <li>Пон–Пет: 9:00–18:00</li>
+    </ul></div>
   </div>
-  <div class="f-bottom">
-    <span>© 2025 ВалуПро Експертни Оценки. Всички права запазени.</span>
-    <span>Политика за поверителност · Бисквитки · Общи условия</span>
-  </div>
+  <div class="f-bottom"><span>© 2025 ВалуПро Експертни Оценки. Всички права запазени.</span><span>Политика за поверителност · Бисквитки · Общи условия</span></div>
 </footer>
 <button class="totop" id="toTop" aria-label="Нагоре">↑</button>
 <div class="cookie" id="cookieBanner" role="dialog" aria-label="Съгласие за бисквитки">

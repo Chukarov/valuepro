@@ -2,6 +2,12 @@
 (function () {
   'use strict';
 
+  var LANG = (document.documentElement.getAttribute('lang') || 'bg').slice(0,2);
+  var LOCALE = LANG === 'en' ? 'en-US' : 'bg-BG';
+  var MSG_OK = LANG === 'en'
+    ? 'Thank you! Your message passed validation. Connect the form to your server to actually send it.'
+    : 'Благодарим! Съобщението е валидирано. Свържете формата с вашия сървър, за да се изпраща.';
+
   // safe localStorage wrapper (degrades gracefully if blocked)
   var store = {
     get: function (k) { try { return localStorage.getItem(k); } catch (e) { return null; } },
@@ -49,9 +55,9 @@
       var p = Math.min((ts - start) / dur, 1);
       var eased = 1 - Math.pow(1 - p, 3);
       var val = Math.floor(eased * target);
-      el.textContent = val.toLocaleString('bg-BG') + suffix;
+      el.textContent = val.toLocaleString(LOCALE) + suffix;
       if (p < 1) requestAnimationFrame(step);
-      else el.textContent = target.toLocaleString('bg-BG') + suffix;
+      else el.textContent = target.toLocaleString(LOCALE) + suffix;
     }
     requestAnimationFrame(step);
   }
@@ -63,7 +69,7 @@
     var nums = document.querySelectorAll('[data-target]');
     if (reduce || !('IntersectionObserver' in window)) {
       items.forEach(function (i) { i.classList.add('in'); });
-      nums.forEach(function (n) { n.textContent = parseFloat(n.getAttribute('data-target')).toLocaleString('bg-BG') + (n.getAttribute('data-suffix') || ''); });
+      nums.forEach(function (n) { n.textContent = parseFloat(n.getAttribute('data-target')).toLocaleString(LOCALE) + (n.getAttribute('data-suffix') || ''); });
       return;
     }
     var io = new IntersectionObserver(function (entries) {
@@ -125,7 +131,7 @@
       });
       if (ok) {
         var msg = document.getElementById('formMsg');
-        if (msg) { msg.classList.add('ok'); msg.textContent = 'Благодарим! Съобщението е валидирано. Свържете формата с вашия сървър, за да се изпраща.'; }
+        if (msg) { msg.classList.add('ok'); msg.textContent = MSG_OK; }
         form.reset();
       }
     });
@@ -142,5 +148,7 @@
     window.addEventListener('scroll', onScroll, { passive: true });
     onScroll();
     initReveal(); initFaq(); initCookie(); initForm();
+    var ls = document.querySelector('.lang-switch');
+    if (ls) ls.addEventListener('click', function () { try { localStorage.setItem('vp-lang', ls.getAttribute('data-lang')); } catch (e) {} });
   });
 })();

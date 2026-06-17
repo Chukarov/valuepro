@@ -1,18 +1,153 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.valuepro.bg/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.valuepro.bg/ocenki-nedvizhimi-imoti.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.valuepro.bg/ocenki-biznes.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.valuepro.bg/ocenki-mashini.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.valuepro.bg/ocenki-nematerialni.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.valuepro.bg/ocenki-zemedelski-zemi.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.valuepro.bg/ocenki-dopalvashti.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.valuepro.bg/ceni.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.valuepro.bg/za-nas.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.valuepro.bg/metodologia.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.valuepro.bg/ocenitelska-mreja.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.valuepro.bg/klienti.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.valuepro.bg/blog.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.valuepro.bg/vyprosi.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.valuepro.bg/kontakti.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://www.valuepro.bg/</loc>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.valuepro.bg/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.valuepro.bg/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.valuepro.bg/"/>
+    <changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.valuepro.bg/en/</loc>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.valuepro.bg/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.valuepro.bg/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.valuepro.bg/"/>
+    <changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.valuepro.bg/ocenki-nedvizhimi-imoti.html</loc>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.valuepro.bg/ocenki-nedvizhimi-imoti.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.valuepro.bg/en/ocenki-nedvizhimi-imoti.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.valuepro.bg/ocenki-nedvizhimi-imoti.html"/>
+    <changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.valuepro.bg/en/ocenki-nedvizhimi-imoti.html</loc>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.valuepro.bg/ocenki-nedvizhimi-imoti.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.valuepro.bg/en/ocenki-nedvizhimi-imoti.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.valuepro.bg/ocenki-nedvizhimi-imoti.html"/>
+    <changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.valuepro.bg/ocenki-biznes.html</loc>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.valuepro.bg/ocenki-biznes.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.valuepro.bg/en/ocenki-biznes.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.valuepro.bg/ocenki-biznes.html"/>
+    <changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.valuepro.bg/en/ocenki-biznes.html</loc>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.valuepro.bg/ocenki-biznes.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.valuepro.bg/en/ocenki-biznes.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.valuepro.bg/ocenki-biznes.html"/>
+    <changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.valuepro.bg/ocenki-mashini.html</loc>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.valuepro.bg/ocenki-mashini.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.valuepro.bg/en/ocenki-mashini.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.valuepro.bg/ocenki-mashini.html"/>
+    <changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.valuepro.bg/en/ocenki-mashini.html</loc>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.valuepro.bg/ocenki-mashini.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.valuepro.bg/en/ocenki-mashini.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.valuepro.bg/ocenki-mashini.html"/>
+    <changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.valuepro.bg/ocenki-nematerialni.html</loc>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.valuepro.bg/ocenki-nematerialni.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.valuepro.bg/en/ocenki-nematerialni.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.valuepro.bg/ocenki-nematerialni.html"/>
+    <changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.valuepro.bg/en/ocenki-nematerialni.html</loc>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.valuepro.bg/ocenki-nematerialni.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.valuepro.bg/en/ocenki-nematerialni.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.valuepro.bg/ocenki-nematerialni.html"/>
+    <changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.valuepro.bg/ocenki-zemedelski-zemi.html</loc>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.valuepro.bg/ocenki-zemedelski-zemi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.valuepro.bg/en/ocenki-zemedelski-zemi.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.valuepro.bg/ocenki-zemedelski-zemi.html"/>
+    <changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.valuepro.bg/en/ocenki-zemedelski-zemi.html</loc>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.valuepro.bg/ocenki-zemedelski-zemi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.valuepro.bg/en/ocenki-zemedelski-zemi.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.valuepro.bg/ocenki-zemedelski-zemi.html"/>
+    <changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.valuepro.bg/ocenki-dopalvashti.html</loc>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.valuepro.bg/ocenki-dopalvashti.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.valuepro.bg/en/ocenki-dopalvashti.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.valuepro.bg/ocenki-dopalvashti.html"/>
+    <changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.valuepro.bg/en/ocenki-dopalvashti.html</loc>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.valuepro.bg/ocenki-dopalvashti.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.valuepro.bg/en/ocenki-dopalvashti.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.valuepro.bg/ocenki-dopalvashti.html"/>
+    <changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.valuepro.bg/ceni.html</loc>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.valuepro.bg/ceni.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.valuepro.bg/en/ceni.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.valuepro.bg/ceni.html"/>
+    <changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.valuepro.bg/en/ceni.html</loc>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.valuepro.bg/ceni.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.valuepro.bg/en/ceni.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.valuepro.bg/ceni.html"/>
+    <changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.valuepro.bg/za-nas.html</loc>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.valuepro.bg/za-nas.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.valuepro.bg/en/za-nas.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.valuepro.bg/za-nas.html"/>
+    <changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.valuepro.bg/en/za-nas.html</loc>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.valuepro.bg/za-nas.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.valuepro.bg/en/za-nas.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.valuepro.bg/za-nas.html"/>
+    <changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.valuepro.bg/metodologia.html</loc>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.valuepro.bg/metodologia.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.valuepro.bg/en/metodologia.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.valuepro.bg/metodologia.html"/>
+    <changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.valuepro.bg/en/metodologia.html</loc>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.valuepro.bg/metodologia.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.valuepro.bg/en/metodologia.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.valuepro.bg/metodologia.html"/>
+    <changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.valuepro.bg/ocenitelska-mreja.html</loc>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.valuepro.bg/ocenitelska-mreja.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.valuepro.bg/en/ocenitelska-mreja.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.valuepro.bg/ocenitelska-mreja.html"/>
+    <changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.valuepro.bg/en/ocenitelska-mreja.html</loc>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.valuepro.bg/ocenitelska-mreja.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.valuepro.bg/en/ocenitelska-mreja.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.valuepro.bg/ocenitelska-mreja.html"/>
+    <changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.valuepro.bg/klienti.html</loc>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.valuepro.bg/klienti.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.valuepro.bg/en/klienti.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.valuepro.bg/klienti.html"/>
+    <changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.valuepro.bg/en/klienti.html</loc>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.valuepro.bg/klienti.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.valuepro.bg/en/klienti.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.valuepro.bg/klienti.html"/>
+    <changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.valuepro.bg/blog.html</loc>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.valuepro.bg/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.valuepro.bg/en/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.valuepro.bg/blog.html"/>
+    <changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.valuepro.bg/en/blog.html</loc>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.valuepro.bg/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.valuepro.bg/en/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.valuepro.bg/blog.html"/>
+    <changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.valuepro.bg/vyprosi.html</loc>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.valuepro.bg/vyprosi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.valuepro.bg/en/vyprosi.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.valuepro.bg/vyprosi.html"/>
+    <changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.valuepro.bg/en/vyprosi.html</loc>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.valuepro.bg/vyprosi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.valuepro.bg/en/vyprosi.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.valuepro.bg/vyprosi.html"/>
+    <changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.valuepro.bg/kontakti.html</loc>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.valuepro.bg/kontakti.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.valuepro.bg/en/kontakti.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.valuepro.bg/kontakti.html"/>
+    <changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.valuepro.bg/en/kontakti.html</loc>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.valuepro.bg/kontakti.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.valuepro.bg/en/kontakti.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.valuepro.bg/kontakti.html"/>
+    <changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>
