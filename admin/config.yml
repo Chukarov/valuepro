@@ -6,7 +6,7 @@
 # ============================================================
 backend:
   name: github
-  repo: Chukarov/valuepro
+  repo: OWNER/REPO
   branch: main
 media_folder: assets/uploads
 public_folder: /assets/uploads
