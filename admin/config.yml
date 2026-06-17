@@ -10,9 +10,9 @@
 # ============================================================
 backend:
   name: github
-  repo: OWNER/REPO          # <-- CHANGE THIS
+  repo: Chukarov/valuepro          # <-- CHANGE THIS
   branch: main
-  # base_url: https://YOUR-WORKER.workers.dev   # <-- uncomment after deploying the auth worker
+  base_url: https://valuepro.d-chukarov.workers.dev    <-- uncomment after deploying the auth worker
 
 # Edits commit to content.json -> the GitHub Action rebuilds & redeploys automatically.
 media_folder: "assets/uploads"
