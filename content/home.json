@@ -33,7 +33,7 @@
       "ts_h": "Какво казват за нас",
       "stats": [
         {
-          "value": "20",
+          "value": "5",
           "suffix": "+",
           "label": "години опит"
         },
@@ -160,7 +160,7 @@
       "ts_h": "What they say about us",
       "stats": [
         {
-          "value": "20",
+          "value": "5",
           "suffix": "+",
           "label": "years of experience"
         },
