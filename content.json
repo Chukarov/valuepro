@@ -1,0 +1,2022 @@
+{
+  "_comment": "Това е съдържанието на сайта. Редактирайте текстовете между кавичките. НЕ пипайте имената на ключовете (отляво на двоеточието) и внимавайте със запетаите. | This is the site content. Edit the text inside the quotes. Do NOT change the key names (left of the colon) and mind the commas.",
+  "site": {
+    "brand": "Valoris Asset",
+    "url": "https://www.valorisasset.bg",
+    "phone_display": "0800 99 999",
+    "phone_link": "+359800999999",
+    "email": "info@valorisasset.bg"
+  },
+  "chrome": {
+    "bg": {
+      "skip": "Към съдържанието",
+      "menu": "Меню",
+      "theme": "Смяна на тема (светла/тъмна)",
+      "req": "Заяви оценка",
+      "lang_to": "EN",
+      "lang_aria": "Switch to English",
+      "n_val": "Оценки",
+      "n_about": "За нас",
+      "n_blog": "Блог",
+      "n_clients": "Клиенти",
+      "n_faq": "ЧЗВ",
+      "n_contact": "Контакти",
+      "d_re": "Недвижими имоти",
+      "d_biz": "Бизнес оценки",
+      "d_mach": "Машини и съоръжения",
+      "d_int": "Нематериални активи",
+      "d_agri": "Земеделски земи",
+      "d_add": "Допълващи услуги",
+      "d_price": "Цени",
+      "d_who": "Кои сме ние",
+      "d_meth": "Методология",
+      "d_net": "Оценителска мрежа",
+      "f_tag": "Независим оценител с над 20 години опит и национална мрежа от сертифицирани оценители.",
+      "f_services": "Услуги",
+      "f_info": "Информация",
+      "f_contact": "Контакт",
+      "f_about": "За нас",
+      "f_price": "Ценоразпис",
+      "f_meth": "Методология",
+      "f_faq": "Въпроси",
+      "f_contacts": "Контакти",
+      "f_addr": "София, ул. Примерна 1",
+      "f_hours": "Пон–Пет: 9:00–18:00",
+      "f_copy": "© 2025 Valoris Asset. Всички права запазени.",
+      "f_legal": "Политика за поверителност · Бисквитки · Общи условия",
+      "ck": "Използваме бисквитки за основни функции и анализ на трафика. Вижте нашата",
+      "ck_link": "Политика за бисквитки",
+      "ck_acc": "Приемам",
+      "ck_dec": "Само необходимите",
+      "ck_aria": "Съгласие за бисквитки",
+      "top": "Нагоре",
+      "jsonld_desc": "Независими пазарни оценки на недвижими имоти, бизнес, машини и земеделска земя в България.",
+      "jsonld_name": "Valoris Asset",
+      "jsonld_city": "София",
+      "jsonld_street": "ул. Примерна 1"
+    },
+    "en": {
+      "skip": "Skip to content",
+      "menu": "Menu",
+      "theme": "Switch theme (light/dark)",
+      "req": "Request a Valuation",
+      "lang_to": "BG",
+      "lang_aria": "Превключи на български",
+      "n_val": "Valuations",
+      "n_about": "About",
+      "n_blog": "Blog",
+      "n_clients": "Clients",
+      "n_faq": "FAQ",
+      "n_contact": "Contact",
+      "d_re": "Real Estate",
+      "d_biz": "Business Valuation",
+      "d_mach": "Machinery & Equipment",
+      "d_int": "Intangible Assets",
+      "d_agri": "Agricultural Land",
+      "d_add": "Additional Services",
+      "d_price": "Pricing",
+      "d_who": "Who We Are",
+      "d_meth": "Methodology",
+      "d_net": "Appraiser Network",
+      "f_tag": "Independent appraiser with over 20 years of experience and a nationwide network of certified appraisers.",
+      "f_services": "Services",
+      "f_info": "Information",
+      "f_contact": "Contact",
+      "f_about": "About",
+      "f_price": "Pricing",
+      "f_meth": "Methodology",
+      "f_faq": "FAQ",
+      "f_contacts": "Contact",
+      "f_addr": "Sofia, 1 Primerna St.",
+      "f_hours": "Mon–Fri: 9:00–18:00",
+      "f_copy": "© 2025 Valoris Asset. All rights reserved.",
+      "f_legal": "Privacy Policy · Cookies · Terms",
+      "ck": "We use cookies for essential functions and traffic analysis. See our",
+      "ck_link": "Cookie Policy",
+      "ck_acc": "Accept",
+      "ck_dec": "Essential only",
+      "ck_aria": "Cookie consent",
+      "top": "Back to top",
+      "jsonld_desc": "Independent market valuations of real estate, businesses, machinery and agricultural land in Bulgaria.",
+      "jsonld_name": "Valoris Asset",
+      "jsonld_city": "Sofia",
+      "jsonld_street": "1 Primerna St."
+    }
+  },
+  "home": {
+    "bg": {
+      "eyebrow": "20 години на пазара",
+      "h1": "Независими <em>експертни оценки</em> на активи в България",
+      "lead": "Пазарни оценки на недвижими имоти, бизнес, машини и земеделска земя — изготвени бързо, прецизно и в съответствие с международните стандарти.",
+      "cta1": "Заяви оценка",
+      "cta2": "Виж цените",
+      "cr1": "<b>КНОБ</b>&nbsp;регистриран",
+      "cr2": "Вещо лице",
+      "cr3": "Одобрен от банки",
+      "cr4": "София и региона",
+      "vc_aria": "Примерна сертифицирана оценка на апартамент",
+      "vc_badge": "СЕРТИФИЦИРАНА ОЦЕНКА",
+      "vc_title": "Оценка на апартамент",
+      "vc_sub": "гр. София · 98 м² · 2025",
+      "vc_r1": "Метод",
+      "vc_v1": "Пазарен подход",
+      "vc_r2": "Състояние",
+      "vc_v2": "Завършено",
+      "vc_r3": "Срок",
+      "vc_v3": "3–5 дни",
+      "vc_val": "Пазарна стойност",
+      "stats": [
+        [
+          "20",
+          "+",
+          "години опит"
+        ],
+        [
+          "15000",
+          "+",
+          "изготвени оценки"
+        ],
+        [
+          "100",
+          "+",
+          "оценители в мрежата"
+        ],
+        [
+          "28",
+          "",
+          "области покритие"
+        ]
+      ],
+      "sv_eye": "Услуги",
+      "sv_h": "Какво оценяваме",
+      "sv_p": "Пълен набор от оценителски услуги за частни лица, бизнес и институции.",
+      "more": "Научи повече →",
+      "cards": [
+        [
+          "home",
+          "Недвижими имоти",
+          "Апартаменти, къщи, офиси, търговски и индустриални имоти.",
+          "ocenki-nedvizhimi-imoti.html"
+        ],
+        [
+          "chart",
+          "Бизнес оценки",
+          "Оценка на предприятия, дялове и капиталови инструменти.",
+          "ocenki-biznes.html"
+        ],
+        [
+          "cog",
+          "Машини и съоръжения",
+          "Производствено оборудване, превозни средства, инвентар.",
+          "ocenki-mashini.html"
+        ],
+        [
+          "bulb",
+          "Нематериални активи",
+          "Търговски марки, патенти, ноу-хау и репутация.",
+          "ocenki-nematerialni.html"
+        ],
+        [
+          "sprout",
+          "Земеделски земи",
+          "Ниви, трайни насаждения, поземлени имоти и терени.",
+          "ocenki-zemedelski-zemi.html"
+        ],
+        [
+          "clipboard",
+          "Допълващи услуги",
+          "Консултации, анализи и експертни становища.",
+          "ocenki-dopalvashti.html"
+        ]
+      ],
+      "pr_eye": "Процес",
+      "pr_h": "Как протича една оценка",
+      "steps": [
+        [
+          "Запитване",
+          "Изпращате ни описание на обекта за оценяване по телефон или имейл."
+        ],
+        [
+          "Оферта и договор",
+          "Получавате конкретна цена и срок в рамките на 24 часа."
+        ],
+        [
+          "Оглед",
+          "Наш оценител извършва оглед на място и събира необходимите данни."
+        ],
+        [
+          "Доклад",
+          "Получавате готовия експертен доклад в договорения срок."
+        ]
+      ],
+      "cta_h": "Готови сте да заявите оценка?",
+      "cta_p": "Свържете се с нас за безплатна консултация и индивидуална оферта.",
+      "ts_eye": "Клиенти",
+      "ts_h": "Какво казват за нас",
+      "quotes": [
+        [
+          "Изключително задоволни от бързото и прецизно изготвяне на оценката. Екипът надхвърли нашите очаквания за професионализъм.",
+          "Име Фамилия",
+          "Длъжност, Компания ООД"
+        ],
+        [
+          "Благодарни сме за ползотворното сътрудничество. Ще продължим да работим заедно с компанията.",
+          "Име Фамилия",
+          "Длъжност, Компания АД"
+        ],
+        [
+          "Качество и кратък срок благодарение на широката оценителска мрежа в цялата страна.",
+          "Име Фамилия",
+          "Компания ЕАД"
+        ]
+      ]
+    },
+    "en": {
+      "eyebrow": "20 years in the market",
+      "h1": "Independent <em>expert valuations</em> of assets in Bulgaria",
+      "lead": "Market valuations of real estate, businesses, machinery and agricultural land — delivered quickly, precisely and in line with international standards.",
+      "cta1": "Request a Valuation",
+      "cta2": "View Pricing",
+      "cr1": "<b>CIAB</b>&nbsp;registered",
+      "cr2": "Court expert",
+      "cr3": "Bank approved",
+      "cr4": "Sofia & region",
+      "vc_aria": "Sample certified apartment valuation",
+      "vc_badge": "CERTIFIED VALUATION",
+      "vc_title": "Apartment valuation",
+      "vc_sub": "Sofia · 98 m² · 2025",
+      "vc_r1": "Method",
+      "vc_v1": "Market approach",
+      "vc_r2": "Condition",
+      "vc_v2": "Completed",
+      "vc_r3": "Turnaround",
+      "vc_v3": "3–5 days",
+      "vc_val": "Market value",
+      "stats": [
+        [
+          "20",
+          "+",
+          "years of experience"
+        ],
+        [
+          "15000",
+          "+",
+          "valuations completed"
+        ],
+        [
+          "100",
+          "+",
+          "appraisers in the network"
+        ],
+        [
+          "28",
+          "",
+          "regions covered"
+        ]
+      ],
+      "sv_eye": "Services",
+      "sv_h": "What We Value",
+      "sv_p": "A full range of valuation services for individuals, businesses and institutions.",
+      "more": "Learn more →",
+      "cards": [
+        [
+          "home",
+          "Real Estate",
+          "Apartments, houses, offices, commercial and industrial properties.",
+          "ocenki-nedvizhimi-imoti.html"
+        ],
+        [
+          "chart",
+          "Business Valuation",
+          "Valuation of enterprises, shares and equity instruments.",
+          "ocenki-biznes.html"
+        ],
+        [
+          "cog",
+          "Machinery & Equipment",
+          "Production equipment, vehicles and inventory.",
+          "ocenki-mashini.html"
+        ],
+        [
+          "bulb",
+          "Intangible Assets",
+          "Trademarks, patents, know-how and goodwill.",
+          "ocenki-nematerialni.html"
+        ],
+        [
+          "sprout",
+          "Agricultural Land",
+          "Arable land, permanent crops, plots and parcels.",
+          "ocenki-zemedelski-zemi.html"
+        ],
+        [
+          "clipboard",
+          "Additional Services",
+          "Consulting, analyses and expert opinions.",
+          "ocenki-dopalvashti.html"
+        ]
+      ],
+      "pr_eye": "Process",
+      "pr_h": "How a valuation works",
+      "steps": [
+        [
+          "Enquiry",
+          "You send us a description of the asset by phone or email."
+        ],
+        [
+          "Quote & contract",
+          "You receive a firm price and timeline within 24 hours."
+        ],
+        [
+          "Inspection",
+          "Our appraiser inspects the site and collects the required data."
+        ],
+        [
+          "Report",
+          "You receive the completed expert report within the agreed deadline."
+        ]
+      ],
+      "cta_h": "Ready to request a valuation?",
+      "cta_p": "Contact us for a free consultation and an individual quote.",
+      "ts_eye": "Clients",
+      "ts_h": "What they say about us",
+      "quotes": [
+        [
+          "Extremely satisfied with the fast and precise valuation. The team exceeded our expectations for professionalism.",
+          "Name Surname",
+          "Position, Company Ltd"
+        ],
+        [
+          "We are grateful for the productive cooperation and will continue to work together.",
+          "Name Surname",
+          "Position, Company JSC"
+        ],
+        [
+          "Quality and short turnaround thanks to the broad appraiser network across the country.",
+          "Name Surname",
+          "Company Plc"
+        ]
+      ]
+    }
+  },
+  "home_title": {
+    "bg": [
+      "Valoris Asset – Експертни пазарни оценки в България",
+      "Независими пазарни оценки на недвижими имоти, бизнес, машини и земеделска земя. Над 20 години опит и национална оценителска мрежа."
+    ],
+    "en": [
+      "Valoris Asset – Expert market valuations in Bulgaria",
+      "Independent market valuations of real estate, businesses, machinery and agricultural land. Over 20 years of experience and a nationwide network."
+    ]
+  },
+  "svc_chrome": {
+    "bg": {
+      "eye": "Услуги",
+      "desc_p": "Тук опишете подробно услугата: за кого е предназначена, в какви случаи се изисква оценка, какви документи са необходими и какъв е резултатът. Заменете този текст с вашето реално съдържание.",
+      "when_h": "Кога е необходима тази оценка",
+      "when": [
+        "Покупко-продажба или замяна на активи",
+        "Банково кредитиране и обезпечения",
+        "Счетоводни и данъчни цели",
+        "Съдебни и нотариални производства",
+        "Апортни вноски и преобразуване на дружества"
+      ],
+      "incl_h": "Какво включва услугата",
+      "meth_h": "Методология",
+      "meth_p": "Прилагаме международно признатите подходи — пазарен, разходен и приходен — съобразно вида на актива и целта на оценката. Всеки доклад е изготвен от сертифициран оценител.",
+      "as_h": "Заяви оценка",
+      "as_p": "Индивидуална оферта в рамките на 24 часа.",
+      "as_btn": "Запитване",
+      "as_price": "Виж ценоразписа",
+      "cta_h": "Имате нужда от тази услуга?",
+      "cta_p": "Изпратете ни описание на обекта и ще получите оферта бързо.",
+      "cta1": "Заяви оценка",
+      "cta2": "Цени"
+    },
+    "en": {
+      "eye": "Services",
+      "desc_p": "Describe the service in detail here: who it is for, when a valuation is required, what documents are needed and what the deliverable is. Replace this text with your real content.",
+      "when_h": "When this valuation is needed",
+      "when": [
+        "Purchase, sale or exchange of assets",
+        "Bank lending and collateral",
+        "Accounting and tax purposes",
+        "Court and notary proceedings",
+        "In-kind contributions and company restructuring"
+      ],
+      "incl_h": "What the service includes",
+      "meth_h": "Methodology",
+      "meth_p": "We apply the internationally recognised approaches — market, cost and income — according to the type of asset and the purpose of the valuation. Every report is prepared by a certified appraiser.",
+      "as_h": "Request a valuation",
+      "as_p": "An individual quote within 24 hours.",
+      "as_btn": "Enquiry",
+      "as_price": "View pricing",
+      "cta_h": "Need this service?",
+      "cta_p": "Send us a description of the asset and you'll get a quote quickly.",
+      "cta1": "Request a Valuation",
+      "cta2": "Pricing"
+    }
+  },
+  "services": {
+    "ocenki-nedvizhimi-imoti.html": [
+      "home",
+      {
+        "bg": [
+          "Оценка на недвижими имоти – Valoris Asset",
+          "Пазарни оценки на жилищни, офис, търговски и индустриални имоти в цялата страна.",
+          "Оценка на недвижими имоти",
+          "Пазарни оценки на жилищни, офис, търговски и индустриални имоти в цялата страна.",
+          [
+            [
+              "Жилищни имоти",
+              "Апартаменти, къщи, мезонети и ваканционни имоти."
+            ],
+            [
+              "Търговски имоти",
+              "Магазини, ресторанти, складове и офис площи."
+            ],
+            [
+              "Индустриални имоти",
+              "Производствени бази, цехове и логистични центрове."
+            ],
+            [
+              "Терени",
+              "УПИ, поземлени имоти и парцели."
+            ]
+          ]
+        ],
+        "en": [
+          "Real Estate Valuation – Valoris Asset",
+          "Market valuations of residential, office, retail and industrial properties across the country.",
+          "Real Estate Valuation",
+          "Market valuations of residential, office, retail and industrial properties across the country.",
+          [
+            [
+              "Residential",
+              "Apartments, houses, maisonettes and holiday homes."
+            ],
+            [
+              "Commercial",
+              "Shops, restaurants, warehouses and office space."
+            ],
+            [
+              "Industrial",
+              "Production sites, workshops and logistics centres."
+            ],
+            [
+              "Land",
+              "Regulated plots, land parcels and lots."
+            ]
+          ]
+        ]
+      }
+    ],
+    "ocenki-biznes.html": [
+      "chart",
+      {
+        "bg": [
+          "Бизнес оценки – Valoris Asset",
+          "Оценка на цели предприятия, дялове, акции и капиталови инструменти.",
+          "Бизнес оценки",
+          "Оценка на цели предприятия, дялове, акции и капиталови инструменти.",
+          [
+            [
+              "Оценка на предприятия",
+              "Справедлива стойност на действащ бизнес."
+            ],
+            [
+              "Дялове и акции",
+              "Миноритарни и мажоритарни пакети, опции."
+            ],
+            [
+              "Сделки M&A",
+              "Придобивания, сливания и продажби."
+            ],
+            [
+              "Финансово отчитане",
+              "Оценки за целите на МСФО."
+            ]
+          ]
+        ],
+        "en": [
+          "Business Valuation – Valoris Asset",
+          "Valuation of whole enterprises, shares, stock and equity instruments.",
+          "Business Valuation",
+          "Valuation of whole enterprises, shares, stock and equity instruments.",
+          [
+            [
+              "Enterprise valuation",
+              "Fair value of a going concern."
+            ],
+            [
+              "Shares & stock",
+              "Minority and majority stakes, options."
+            ],
+            [
+              "M&A deals",
+              "Acquisitions, mergers and disposals."
+            ],
+            [
+              "Financial reporting",
+              "Valuations for IFRS purposes."
+            ]
+          ]
+        ]
+      }
+    ],
+    "ocenki-mashini.html": [
+      "cog",
+      {
+        "bg": [
+          "Оценка на машини и съоръжения – Valoris Asset",
+          "Оценка на производствено оборудване, транспортни средства и инвентар.",
+          "Оценка на машини и съоръжения",
+          "Оценка на производствено оборудване, транспортни средства и инвентар.",
+          [
+            [
+              "Производствени машини",
+              "Самостоятелни машини и поточни линии."
+            ],
+            [
+              "Транспортни средства",
+              "Леки, товарни автомобили и техника."
+            ],
+            [
+              "Селскостопанска техника",
+              "Трактори, комбайни и инвентар."
+            ],
+            [
+              "Оборудване",
+              "Компютърна техника, обзавеждане, запаси."
+            ]
+          ]
+        ],
+        "en": [
+          "Machinery & Equipment Valuation – Valoris Asset",
+          "Valuation of production equipment, vehicles and inventory.",
+          "Machinery & Equipment Valuation",
+          "Valuation of production equipment, vehicles and inventory.",
+          [
+            [
+              "Production machines",
+              "Standalone machines and production lines."
+            ],
+            [
+              "Vehicles",
+              "Cars, trucks and specialised equipment."
+            ],
+            [
+              "Agricultural machinery",
+              "Tractors, combines and implements."
+            ],
+            [
+              "Equipment",
+              "Computers, furnishings and stock."
+            ]
+          ]
+        ]
+      }
+    ],
+    "ocenki-nematerialni.html": [
+      "bulb",
+      {
+        "bg": [
+          "Оценка на нематериални активи – Valoris Asset",
+          "Оценка на търговски марки, патенти, ноу-хау, лицензи и репутация.",
+          "Оценка на нематериални активи",
+          "Оценка на търговски марки, патенти, ноу-хау, лицензи и репутация.",
+          [
+            [
+              "Търговски марки",
+              "Стойност на бранд и регистрирани марки."
+            ],
+            [
+              "Патенти",
+              "Интелектуална собственост и технологии."
+            ],
+            [
+              "Ноу-хау и лицензи",
+              "Договори, права на ползване, франчайз."
+            ],
+            [
+              "Репутация (Goodwill)",
+              "Превишение над нетните активи."
+            ]
+          ]
+        ],
+        "en": [
+          "Intangible Asset Valuation – Valoris Asset",
+          "Valuation of trademarks, patents, know-how, licences and goodwill.",
+          "Intangible Asset Valuation",
+          "Valuation of trademarks, patents, know-how, licences and goodwill.",
+          [
+            [
+              "Trademarks",
+              "Brand value and registered marks."
+            ],
+            [
+              "Patents",
+              "Intellectual property and technologies."
+            ],
+            [
+              "Know-how & licences",
+              "Contracts, usage rights, franchising."
+            ],
+            [
+              "Goodwill",
+              "Excess over net tangible assets."
+            ]
+          ]
+        ]
+      }
+    ],
+    "ocenki-zemedelski-zemi.html": [
+      "sprout",
+      {
+        "bg": [
+          "Оценка на земеделски земи – Valoris Asset",
+          "Оценка на ниви, трайни насаждения, пасища и поземлени имоти.",
+          "Оценка на земеделски земи",
+          "Оценка на ниви, трайни насаждения, пасища и поземлени имоти.",
+          [
+            [
+              "Обработваеми земи",
+              "Ниви и земеделски парцели."
+            ],
+            [
+              "Трайни насаждения",
+              "Лозя, овощни градини и гори."
+            ],
+            [
+              "Пасища и ливади",
+              "Постоянно затревени площи."
+            ],
+            [
+              "Поземлени имоти",
+              "ПИ и УПИ в различни територии."
+            ]
+          ]
+        ],
+        "en": [
+          "Agricultural Land Valuation – Valoris Asset",
+          "Valuation of arable land, permanent crops, pastures and plots.",
+          "Agricultural Land Valuation",
+          "Valuation of arable land, permanent crops, pastures and plots.",
+          [
+            [
+              "Arable land",
+              "Fields and agricultural parcels."
+            ],
+            [
+              "Permanent crops",
+              "Vineyards, orchards and forests."
+            ],
+            [
+              "Pastures & meadows",
+              "Permanently grassed areas."
+            ],
+            [
+              "Land plots",
+              "Parcels and regulated plots in various zones."
+            ]
+          ]
+        ]
+      }
+    ],
+    "ocenki-dopalvashti.html": [
+      "clipboard",
+      {
+        "bg": [
+          "Допълващи услуги – Valoris Asset",
+          "Консултации, анализи, експертни становища и съдебни експертизи.",
+          "Допълващи професионални услуги",
+          "Консултации, анализи, експертни становища и съдебни експертизи.",
+          [
+            [
+              "Инвестиционни анализи",
+              "Доходност и осъществимост на проекти."
+            ],
+            [
+              "Експертни становища",
+              "Писмени становища по казуси."
+            ],
+            [
+              "Съдебни експертизи",
+              "Оценки за съдебни производства."
+            ],
+            [
+              "Консултации",
+              "Професионални консултации."
+            ]
+          ]
+        ],
+        "en": [
+          "Additional Services – Valoris Asset",
+          "Consulting, analyses, expert opinions and court expertise.",
+          "Additional Professional Services",
+          "Consulting, analyses, expert opinions and court expertise.",
+          [
+            [
+              "Investment analyses",
+              "Yield and feasibility of projects."
+            ],
+            [
+              "Expert opinions",
+              "Written opinions on specific cases."
+            ],
+            [
+              "Court expertise",
+              "Valuations for court proceedings."
+            ],
+            [
+              "Consulting",
+              "Professional consulting."
+            ]
+          ]
+        ]
+      }
+    ]
+  },
+  "ceni": {
+    "bg": {
+      "eye": "Ценоразпис",
+      "h1": "Цени за <em>експертни оценки</em>",
+      "lead": "Прозрачни и конкурентни цени за всички видове пазарни оценки. Без скрити такси.",
+      "th": [
+        "Вид имот / актив",
+        "Такса (EUR с ДДС)",
+        "Такса (BGN с ДДС)",
+        "Срок (дни)"
+      ],
+      "th_asset": "Вид оценяван актив",
+      "s1": "Оценка на недвижим имот",
+      "s2": "Сгради с прилежаща земя",
+      "s3": "Машини и съоръжения",
+      "s4": "Земеделска земя",
+      "neg": "по договаряне",
+      "minw": "минимум",
+      "min": "мин.",
+      "lv": "лв.",
+      "express": "ЕКСПРЕСНА",
+      "expressd": "Оценка (до 2 дни)",
+      "exprate": "+50% от основното възнаграждение",
+      "upto2": "до 2",
+      "foot": "* Цените са преизчислени по курс 1 EUR = 1,95583 BGN и закръглени до два знака. За нестандартни обекти цената е по индивидуално договаряне.",
+      "cta_h": "Нужна ви е индивидуална оферта?",
+      "cta_p": "Изпратете ни списък с обектите и техните характеристики — отговаряме до 24 часа.",
+      "cta1": "Изпратете запитване",
+      "tables": {
+        "realestate": [
+          {
+            "name": "Апартамент до 150 м² – завършено",
+            "eur": "€150",
+            "bgn": "293,37 лв.",
+            "days": "3–5",
+            "type": "b",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Апартамент до 150 м² – незавършено",
+            "eur": "€180",
+            "bgn": "352,05 лв.",
+            "days": "3–5",
+            "type": "b",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Доплащане за гараж или паркомясто",
+            "eur": "€42",
+            "bgn": "82,14 лв.",
+            "days": "3–5",
+            "type": "extra",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Самостоятелен гараж / паркомясто",
+            "eur": "€84",
+            "bgn": "164,29 лв.",
+            "days": "3–5",
+            "type": "b",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Апартамент над 150 м²; мезонет – завършено",
+            "eur": "€300",
+            "bgn": "588,75 лв.",
+            "days": "3–5",
+            "type": "b",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Апартамент над 150 м²; мезонет – незавършено",
+            "eur": "",
+            "bgn": "",
+            "days": "–",
+            "type": "b",
+            "eur_neg": true,
+            "bgn_neg": false,
+            "eur_min": "минимум €336",
+            "bgn_min": "мин. 657,16 лв."
+          },
+          {
+            "name": "Офис самостоятелен – до 200 м²",
+            "eur": "€240",
+            "bgn": "469,40 лв.",
+            "days": "3–5",
+            "type": "b",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Доплащане за всеки допълнителни 200 м²",
+            "eur": "€72",
+            "bgn": "140,82 лв.",
+            "days": "–",
+            "type": "extra",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Търговски обект до 200 м²",
+            "eur": "€240",
+            "bgn": "469,40 лв.",
+            "days": "3–5",
+            "type": "b",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Доплащане за всеки допълнителни 200 м²",
+            "eur": "€72",
+            "bgn": "140,82 лв.",
+            "days": "–",
+            "type": "extra",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          }
+        ],
+        "buildings": [
+          {
+            "name": "Едноетажна къща със ЗП до 150 м²",
+            "eur": "€216",
+            "bgn": "422,46 лв.",
+            "days": "3",
+            "type": "b",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Доплащане за всеки допълнителен етаж/постройка",
+            "eur": "€60",
+            "bgn": "117,35 лв.",
+            "days": "–",
+            "type": "extra",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Къща над 150 м² или „луксозен имот\"",
+            "eur": "",
+            "bgn": "",
+            "days": "5",
+            "type": "b",
+            "eur_neg": true,
+            "bgn_neg": false,
+            "eur_min": "минимум €360",
+            "bgn_min": "мин. 704,10 лв."
+          }
+        ],
+        "machinery": [
+          {
+            "name": "Лек автомобил",
+            "eur": "€120",
+            "bgn": "234,70 лв.",
+            "days": "2",
+            "type": "",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Товарен автомобил",
+            "eur": "€160",
+            "bgn": "312,93 лв.",
+            "days": "2",
+            "type": "",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Селскостопанска машина",
+            "eur": "€150",
+            "bgn": "293,37 лв.",
+            "days": "2",
+            "type": "",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Прикачен инвентар",
+            "eur": "€110",
+            "bgn": "215,14 лв.",
+            "days": "2",
+            "type": "",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Производствена машина – самостоятелна",
+            "eur": "",
+            "bgn": "",
+            "days": "3",
+            "type": "",
+            "eur_neg": true,
+            "bgn_neg": false,
+            "eur_min": "минимум €300",
+            "bgn_min": "мин. 586,75 лв."
+          },
+          {
+            "name": "Поточна линия",
+            "eur": "",
+            "bgn": "",
+            "days": "4–6",
+            "type": "",
+            "eur_neg": true,
+            "bgn_neg": false,
+            "eur_min": "минимум €360",
+            "bgn_min": "мин. 704,10 лв."
+          },
+          {
+            "name": "Компютърна техника, материални запаси",
+            "eur": "",
+            "bgn": "–",
+            "days": "–",
+            "type": "",
+            "eur_neg": true,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          }
+        ],
+        "agri": [
+          {
+            "name": "Земеделска земя – поземлен имот (1 бр.)",
+            "eur": "€130",
+            "bgn": "254,26 лв.",
+            "days": "3",
+            "type": "",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Доплащане за всеки допълнителен парцел",
+            "eur": "",
+            "bgn": "",
+            "days": "–",
+            "type": "extra",
+            "eur_neg": true,
+            "bgn_neg": true,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Земеделска земя с трайни насаждения",
+            "eur": "",
+            "bgn": "",
+            "days": "5",
+            "type": "",
+            "eur_neg": true,
+            "bgn_neg": false,
+            "eur_min": "минимум €312",
+            "bgn_min": "мин. 610,22 лв."
+          },
+          {
+            "name": "Празен терен (УПИ, ПИ) без разрешение",
+            "eur": "",
+            "bgn": "",
+            "days": "3",
+            "type": "",
+            "eur_neg": true,
+            "bgn_neg": false,
+            "eur_min": "минимум €174",
+            "bgn_min": "мин. 340,31 лв."
+          },
+          {
+            "name": "УПИ с разрешение за строеж",
+            "eur": "",
+            "bgn": "",
+            "days": "5",
+            "type": "",
+            "eur_neg": true,
+            "bgn_neg": false,
+            "eur_min": "минимум €360",
+            "bgn_min": "мин. 704,10 лв."
+          }
+        ]
+      }
+    },
+    "en": {
+      "eye": "Pricing",
+      "h1": "Prices for <em>expert valuations</em>",
+      "lead": "Transparent and competitive prices for all types of market valuations. No hidden fees.",
+      "th": [
+        "Property / asset type",
+        "Fee (EUR incl. VAT)",
+        "Fee (BGN incl. VAT)",
+        "Time (days)"
+      ],
+      "th_asset": "Asset type",
+      "s1": "Real estate valuation",
+      "s2": "Buildings with adjoining land",
+      "s3": "Machinery & equipment",
+      "s4": "Agricultural land",
+      "neg": "by agreement",
+      "minw": "minimum",
+      "min": "min.",
+      "lv": "BGN",
+      "express": "EXPRESS",
+      "expressd": "valuation (up to 2 days)",
+      "exprate": "+50% of the base fee",
+      "upto2": "up to 2",
+      "foot": "* Prices are converted at the rate 1 EUR = 1.95583 BGN and rounded to two decimals. Non-standard assets are priced by individual agreement.",
+      "cta_h": "Need an individual quote?",
+      "cta_p": "Send us a list of the assets and their characteristics — we reply within 24 hours.",
+      "cta1": "Send an enquiry",
+      "tables": {
+        "realestate": [
+          {
+            "name": "Apartment up to 150 m² – completed",
+            "eur": "€150",
+            "bgn": "BGN 293.37",
+            "days": "3–5",
+            "type": "b",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Apartment up to 150 m² – unfinished",
+            "eur": "€180",
+            "bgn": "BGN 352.05",
+            "days": "3–5",
+            "type": "b",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Surcharge for garage or parking space",
+            "eur": "€42",
+            "bgn": "BGN 82.14",
+            "days": "3–5",
+            "type": "extra",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Standalone garage / parking space",
+            "eur": "€84",
+            "bgn": "BGN 164.29",
+            "days": "3–5",
+            "type": "b",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Apartment over 150 m²; maisonette – completed",
+            "eur": "€300",
+            "bgn": "BGN 588.75",
+            "days": "3–5",
+            "type": "b",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Apartment over 150 m²; maisonette – unfinished",
+            "eur": "",
+            "bgn": "",
+            "days": "–",
+            "type": "b",
+            "eur_neg": true,
+            "bgn_neg": false,
+            "eur_min": "minimum €336",
+            "bgn_min": "min. BGN 657.16"
+          },
+          {
+            "name": "Standalone office – up to 200 m²",
+            "eur": "€240",
+            "bgn": "BGN 469.40",
+            "days": "3–5",
+            "type": "b",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Surcharge per additional 200 m²",
+            "eur": "€72",
+            "bgn": "BGN 140.82",
+            "days": "–",
+            "type": "extra",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Retail unit up to 200 m²",
+            "eur": "€240",
+            "bgn": "BGN 469.40",
+            "days": "3–5",
+            "type": "b",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Surcharge per additional 200 m²",
+            "eur": "€72",
+            "bgn": "BGN 140.82",
+            "days": "–",
+            "type": "extra",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          }
+        ],
+        "buildings": [
+          {
+            "name": "Single-storey house, built-up area up to 150 m²",
+            "eur": "€216",
+            "bgn": "BGN 422.46",
+            "days": "3",
+            "type": "b",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Surcharge per additional floor/building",
+            "eur": "€60",
+            "bgn": "BGN 117.35",
+            "days": "–",
+            "type": "extra",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "House over 150 m² or \"luxury property\"",
+            "eur": "",
+            "bgn": "",
+            "days": "5",
+            "type": "b",
+            "eur_neg": true,
+            "bgn_neg": false,
+            "eur_min": "minimum €360",
+            "bgn_min": "min. BGN 704.10"
+          }
+        ],
+        "machinery": [
+          {
+            "name": "Passenger car",
+            "eur": "€120",
+            "bgn": "BGN 234.70",
+            "days": "2",
+            "type": "",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Truck",
+            "eur": "€160",
+            "bgn": "BGN 312.93",
+            "days": "2",
+            "type": "",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Agricultural machine",
+            "eur": "€150",
+            "bgn": "BGN 293.37",
+            "days": "2",
+            "type": "",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Towed implement",
+            "eur": "€110",
+            "bgn": "BGN 215.14",
+            "days": "2",
+            "type": "",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Production machine – standalone",
+            "eur": "",
+            "bgn": "",
+            "days": "3",
+            "type": "",
+            "eur_neg": true,
+            "bgn_neg": false,
+            "eur_min": "minimum €300",
+            "bgn_min": "min. BGN 586.75"
+          },
+          {
+            "name": "Production line",
+            "eur": "",
+            "bgn": "",
+            "days": "4–6",
+            "type": "",
+            "eur_neg": true,
+            "bgn_neg": false,
+            "eur_min": "minimum €360",
+            "bgn_min": "min. BGN 704.10"
+          },
+          {
+            "name": "Computer equipment, inventory",
+            "eur": "",
+            "bgn": "–",
+            "days": "–",
+            "type": "",
+            "eur_neg": true,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          }
+        ],
+        "agri": [
+          {
+            "name": "Agricultural land – plot (1 pc.)",
+            "eur": "€130",
+            "bgn": "BGN 254.26",
+            "days": "3",
+            "type": "",
+            "eur_neg": false,
+            "bgn_neg": false,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Surcharge per additional parcel",
+            "eur": "",
+            "bgn": "",
+            "days": "–",
+            "type": "extra",
+            "eur_neg": true,
+            "bgn_neg": true,
+            "eur_min": "",
+            "bgn_min": ""
+          },
+          {
+            "name": "Agricultural land with permanent crops",
+            "eur": "",
+            "bgn": "",
+            "days": "5",
+            "type": "",
+            "eur_neg": true,
+            "bgn_neg": false,
+            "eur_min": "minimum €312",
+            "bgn_min": "min. BGN 610.22"
+          },
+          {
+            "name": "Vacant plot (regulated/land) without permit",
+            "eur": "",
+            "bgn": "",
+            "days": "3",
+            "type": "",
+            "eur_neg": true,
+            "bgn_neg": false,
+            "eur_min": "minimum €174",
+            "bgn_min": "min. BGN 340.31"
+          },
+          {
+            "name": "Regulated plot with building permit",
+            "eur": "",
+            "bgn": "",
+            "days": "5",
+            "type": "",
+            "eur_neg": true,
+            "bgn_neg": false,
+            "eur_min": "minimum €360",
+            "bgn_min": "min. BGN 704.10"
+          }
+        ]
+      }
+    }
+  },
+  "ceni_title": {
+    "bg": [
+      "Цени за оценки – Valoris Asset",
+      "Прозрачен ценоразпис за оценки на недвижими имоти, машини, съоръжения и земеделска земя."
+    ],
+    "en": [
+      "Pricing – Valoris Asset",
+      "Transparent price list for valuations of real estate, machinery, equipment and agricultural land."
+    ]
+  },
+  "about": {
+    "bg": {
+      "title": [
+        "За нас – Valoris Asset",
+        "Запознайте се с Valoris Asset — независим оценител с над 20 години опит на българския пазар."
+      ],
+      "eye": "За нас",
+      "h1": "Кои сме ние",
+      "hp": "Над 20 години изграждаме доверие като независим оценител на българския пазар.",
+      "lead": "Valoris Asset е сред водещите оценителски компании в България с над 20 години опит и национална мрежа от сертифицирани оценители.",
+      "p": "Заменете този текст с историята на вашата компания — кога е основана, основните етапи в развитието, ценностите и какво ви отличава.",
+      "mh": "Нашата мисия",
+      "mp": "Да предоставяме независими, обективни и навременни оценки, на които клиентите ни могат да разчитат при важни финансови решения.",
+      "wh": "Защо да изберете нас",
+      "why": [
+        [
+          "Опит",
+          "над две десетилетия и хиляди изготвени доклада."
+        ],
+        [
+          "Покритие",
+          "оценители във всички региони на страната."
+        ],
+        [
+          "Бързина",
+          "стандартен срок 3–5 дни, експресни до 2 дни."
+        ],
+        [
+          "Качество",
+          "доклади по международните стандарти."
+        ]
+      ],
+      "stats": [
+        [
+          "20",
+          "+",
+          "години опит"
+        ],
+        [
+          "15000",
+          "+",
+          "изготвени оценки"
+        ],
+        [
+          "100",
+          "+",
+          "оценители"
+        ],
+        [
+          "28",
+          "",
+          "области"
+        ]
+      ]
+    },
+    "en": {
+      "title": [
+        "About – Valoris Asset",
+        "Meet Valoris Asset — an independent appraiser with over 20 years of experience on the Bulgarian market."
+      ],
+      "eye": "About",
+      "h1": "Who We Are",
+      "hp": "For over 20 years we have built trust as an independent appraiser on the Bulgarian market.",
+      "lead": "Valoris Asset is among the leading appraisal companies in Bulgaria, with over 20 years of experience and a nationwide network of certified appraisers.",
+      "p": "Replace this text with your company's story — when it was founded, key milestones, your values and what sets you apart.",
+      "mh": "Our mission",
+      "mp": "To deliver independent, objective and timely valuations our clients can rely on for important financial decisions.",
+      "wh": "Why choose us",
+      "why": [
+        [
+          "Experience",
+          "over two decades and thousands of reports delivered."
+        ],
+        [
+          "Coverage",
+          "appraisers in every region of the country."
+        ],
+        [
+          "Speed",
+          "standard turnaround 3–5 days, express up to 2 days."
+        ],
+        [
+          "Quality",
+          "reports compliant with international standards."
+        ]
+      ],
+      "stats": [
+        [
+          "20",
+          "+",
+          "years of experience"
+        ],
+        [
+          "15000",
+          "+",
+          "valuations completed"
+        ],
+        [
+          "100",
+          "+",
+          "appraisers"
+        ],
+        [
+          "28",
+          "",
+          "regions"
+        ]
+      ]
+    }
+  },
+  "methodology": {
+    "bg": {
+      "title": [
+        "Методология – Valoris Asset",
+        "Методология на оценяване по международните стандарти (IVS): пазарен, разходен и приходен подход."
+      ],
+      "eye": "За нас",
+      "h1": "Методология на оценяване",
+      "hp": "Прилагаме международно признатите подходи и стандарти за оценяване.",
+      "lead": "Всяка оценка се изготвя в съответствие с Международните стандарти за оценяване (IVS) и българското законодателство.",
+      "ah": "Трите основни подхода",
+      "app": [
+        [
+          "Пазарен подход",
+          "Стойността се определя чрез сравнение с реализирани сделки за сходни активи."
+        ],
+        [
+          "Разходен подход",
+          "Стойността се базира на разходите за възстановяване, намалени с амортизацията."
+        ],
+        [
+          "Приходен подход",
+          "Стойността се извежда от способността на актива да генерира бъдещи парични потоци."
+        ]
+      ],
+      "sh": "Етапи на работа",
+      "steps": [
+        [
+          "Дефиниране на задачата",
+          "Уточняване на обекта, целта и базата на оценката."
+        ],
+        [
+          "Събиране на данни",
+          "Оглед, документи и пазарна информация."
+        ],
+        [
+          "Анализ",
+          "Прилагане на подходящите подходи и методи."
+        ],
+        [
+          "Заключение и доклад",
+          "Изготвяне на писмен експертен доклад."
+        ]
+      ]
+    },
+    "en": {
+      "title": [
+        "Methodology – Valoris Asset",
+        "Valuation methodology under the International Valuation Standards (IVS): market, cost and income approaches."
+      ],
+      "eye": "About",
+      "h1": "Valuation Methodology",
+      "hp": "We apply internationally recognised valuation approaches and standards.",
+      "lead": "Every valuation is prepared in accordance with the International Valuation Standards (IVS) and Bulgarian legislation.",
+      "ah": "The three core approaches",
+      "app": [
+        [
+          "Market approach",
+          "Value is determined by comparison with completed transactions for similar assets."
+        ],
+        [
+          "Cost approach",
+          "Value is based on replacement cost less accumulated depreciation."
+        ],
+        [
+          "Income approach",
+          "Value is derived from the asset's ability to generate future cash flows."
+        ]
+      ],
+      "sh": "Workflow stages",
+      "steps": [
+        [
+          "Defining the engagement",
+          "Clarifying the asset, purpose and basis of value."
+        ],
+        [
+          "Data collection",
+          "Inspection, documents and market information."
+        ],
+        [
+          "Analysis",
+          "Applying the appropriate approaches and methods."
+        ],
+        [
+          "Conclusion & report",
+          "Preparing a written expert report."
+        ]
+      ]
+    }
+  },
+  "network": {
+    "bg": {
+      "title": [
+        "Оценителска мрежа – Valoris Asset",
+        "Национална мрежа от сертифицирани оценители с покритие във всички области на България."
+      ],
+      "eye": "За нас",
+      "h1": "Оценителска мрежа",
+      "hp": "Сертифицирани оценители във всички региони на страната.",
+      "lead": "Нашата национална мрежа от независими оценители ни позволява да извършваме огледи и оценки в кратки срокове във всяка точка на България.",
+      "p": "Заменете този текст с описание на вашата мрежа — брой оценители, специализации, регионално покритие и контрол на качеството.",
+      "rh": "Регионално покритие",
+      "regions": [
+        "София",
+        "Пловдив",
+        "Варна",
+        "Бургас",
+        "Русе",
+        "Стара Загора",
+        "Плевен",
+        "Велико Търново",
+        "Благоевград",
+        "Хасково",
+        "Шумен",
+        "Добрич"
+      ],
+      "cta_h": "Искате да станете част от мрежата?",
+      "cta_p": "Търсим сертифицирани оценители за разширяване на екипа.",
+      "cta1": "Кандидатствай"
+    },
+    "en": {
+      "title": [
+        "Appraiser Network – Valoris Asset",
+        "A nationwide network of certified appraisers covering every region of Bulgaria."
+      ],
+      "eye": "About",
+      "h1": "Appraiser Network",
+      "hp": "Certified appraisers in every region of the country.",
+      "lead": "Our nationwide network of independent appraisers lets us carry out inspections and valuations quickly anywhere in Bulgaria.",
+      "p": "Replace this text with a description of your network — number of appraisers, specialisations, regional coverage and quality control.",
+      "rh": "Regional coverage",
+      "regions": [
+        "Sofia",
+        "Plovdiv",
+        "Varna",
+        "Burgas",
+        "Ruse",
+        "Stara Zagora",
+        "Pleven",
+        "Veliko Tarnovo",
+        "Blagoevgrad",
+        "Haskovo",
+        "Shumen",
+        "Dobrich"
+      ],
+      "cta_h": "Want to join the network?",
+      "cta_p": "We're looking for certified appraisers to expand the team.",
+      "cta1": "Apply"
+    }
+  },
+  "clients": {
+    "bg": {
+      "title": [
+        "Клиенти – Valoris Asset",
+        "Банки, корпоративни клиенти и институции се доверяват на нашите експертни оценки."
+      ],
+      "eye": "Клиенти",
+      "h1": "Нашите клиенти",
+      "hp": "Доверието на банки, корпорации и институции е нашето най-голямо постижение.",
+      "b1": "Банки",
+      "b1h": "Банкови институции",
+      "b2": "Бизнес",
+      "b2h": "Корпоративни клиенти",
+      "b3": "Държава",
+      "b3h": "Институции",
+      "banks": [
+        "Банка 1",
+        "Банка 2",
+        "Банка 3",
+        "Банка 4"
+      ],
+      "corp": [
+        "Компания A",
+        "Компания B",
+        "Компания C",
+        "Компания D",
+        "Компания E",
+        "Компания F"
+      ],
+      "inst": [
+        "Институция 1",
+        "Институция 2",
+        "Институция 3"
+      ],
+      "reh": "Референции",
+      "reh2": "Какво казват клиентите ни",
+      "quotes": [
+        [
+          "Изключително задоволни от професионалната работа, извършена с високо качество и в кратък срок.",
+          "Име Фамилия",
+          "Длъжност, Компания ООД"
+        ],
+        [
+          "Благодарни сме за ползотворното сътрудничество и ще продължим да работим заедно.",
+          "Име Фамилия",
+          "Длъжност, Компания АД"
+        ],
+        [
+          "Екипът извършва всяка експертна оценка с висок професионализъм и в договорения срок.",
+          "Име Фамилия",
+          "Компания ЕАД"
+        ],
+        [
+          "Компанията работи на най-високо ниво от гледна точка на професионализъм и коректност.",
+          "Име Фамилия",
+          "Длъжност, Компания ООД"
+        ]
+      ]
+    },
+    "en": {
+      "title": [
+        "Clients – Valoris Asset",
+        "Banks, corporate clients and institutions trust our expert valuations."
+      ],
+      "eye": "Clients",
+      "h1": "Our Clients",
+      "hp": "The trust of banks, corporations and institutions is our greatest achievement.",
+      "b1": "Banks",
+      "b1h": "Banking institutions",
+      "b2": "Business",
+      "b2h": "Corporate clients",
+      "b3": "Public",
+      "b3h": "Institutions",
+      "banks": [
+        "Bank 1",
+        "Bank 2",
+        "Bank 3",
+        "Bank 4"
+      ],
+      "corp": [
+        "Company A",
+        "Company B",
+        "Company C",
+        "Company D",
+        "Company E",
+        "Company F"
+      ],
+      "inst": [
+        "Institution 1",
+        "Institution 2",
+        "Institution 3"
+      ],
+      "reh": "References",
+      "reh2": "What our clients say",
+      "quotes": [
+        [
+          "Extremely satisfied with the professional work, delivered to a high standard and on a short timeline.",
+          "Name Surname",
+          "Position, Company Ltd"
+        ],
+        [
+          "We are grateful for the productive cooperation and will continue to work together.",
+          "Name Surname",
+          "Position, Company JSC"
+        ],
+        [
+          "The team carries out every expert valuation with high professionalism and within the agreed deadline.",
+          "Name Surname",
+          "Company Plc"
+        ],
+        [
+          "The company operates at the highest level in terms of professionalism and integrity.",
+          "Name Surname",
+          "Position, Company Ltd"
+        ]
+      ]
+    }
+  },
+  "blog": {
+    "bg": {
+      "title": [
+        "Блог – Valoris Asset",
+        "Новини, анализи и полезни статии за пазарните оценки в България."
+      ],
+      "eye": "Блог",
+      "h1": "Актуално",
+      "hp": "Новини, анализи и полезни статии от света на оценяването.",
+      "posts": [
+        [
+          "clipboard",
+          "15 ЯНУАРИ 2025",
+          "Как се определя пазарната стойност на жилище",
+          "Основните фактори, които влияят върху оценката на апартамент или къща."
+        ],
+        [
+          "chart",
+          "02 ФЕВРУАРИ 2025",
+          "Кога е необходима бизнес оценка",
+          "Типичните ситуации, в които компаниите се нуждаят от професионална оценка."
+        ],
+        [
+          "landmark",
+          "20 МАРТ 2025",
+          "Оценка за банков кредит — какво да очаквате",
+          "Процесът при изготвяне на оценка за ипотечно кредитиране."
+        ],
+        [
+          "sprout",
+          "05 АПРИЛ 2025",
+          "Особености при оценка на земеделска земя",
+          "Кои фактори определят стойността на нивите и насажденията."
+        ],
+        [
+          "cog",
+          "18 МАЙ 2025",
+          "Амортизация при оценка на машини",
+          "Как се отчита износването на производственото оборудване."
+        ],
+        [
+          "euro",
+          "01 ЮНИ 2025",
+          "Преминаване към еврото и оценките",
+          "Какво се променя в ценоразписа след въвеждането на еврото."
+        ]
+      ]
+    },
+    "en": {
+      "title": [
+        "Blog – Valoris Asset",
+        "News, analyses and useful articles on market valuations in Bulgaria."
+      ],
+      "eye": "Blog",
+      "h1": "News",
+      "hp": "News, analyses and useful articles from the world of valuation.",
+      "posts": [
+        [
+          "clipboard",
+          "15 JANUARY 2025",
+          "How a home's market value is determined",
+          "The main factors that influence the valuation of an apartment or house."
+        ],
+        [
+          "chart",
+          "02 FEBRUARY 2025",
+          "When you need a business valuation",
+          "Typical situations where companies need a professional valuation."
+        ],
+        [
+          "landmark",
+          "20 MARCH 2025",
+          "Valuation for a bank loan — what to expect",
+          "The process of preparing a valuation for mortgage lending."
+        ],
+        [
+          "sprout",
+          "05 APRIL 2025",
+          "Specifics of valuing agricultural land",
+          "Which factors determine the value of fields and crops."
+        ],
+        [
+          "cog",
+          "18 MAY 2025",
+          "Depreciation in machinery valuation",
+          "How wear of production equipment is accounted for."
+        ],
+        [
+          "euro",
+          "01 JUNE 2025",
+          "The euro changeover and valuations",
+          "What changes in the price list after the euro is introduced."
+        ]
+      ]
+    }
+  },
+  "faq": {
+    "bg": {
+      "title": [
+        "Често задавани въпроси – Valoris Asset",
+        "Отговори на често задавани въпроси за процеса, цените и валидността на оценките."
+      ],
+      "eye": "Помощ",
+      "h1": "Често задавани въпроси",
+      "hp": "Отговори на най-честите въпроси за нашите услуги.",
+      "q": [
+        [
+          "Какъв е процесът на изготвяне на оценка?",
+          "След запитване изготвяме оферта, извършваме оглед, анализираме данните и предоставяме готовия доклад в договорения срок."
+        ],
+        [
+          "Как протича огледът на обекта?",
+          "Наш оценител посещава обекта в уговорено време, прави снимки и заснема необходимите характеристики и размери."
+        ],
+        [
+          "Каква е цената на оценката?",
+          "Зависи от вида и характеристиките на актива. Вижте ценоразписа или се свържете с нас за оферта."
+        ],
+        [
+          "Каква е валидността на оценката?",
+          "Обикновено 6 месеца, но срокът може да варира според целта и изискванията на институцията."
+        ],
+        [
+          "Може ли една оценка да послужи на няколко места?",
+          "В повечето случаи да, ако целта и базата ѝ съответстват на изискванията на съответната институция."
+        ],
+        [
+          "Каква методология използвате?",
+          "Пазарен, разходен и приходен подход съобразно актива и целта, по международните стандарти."
+        ]
+      ],
+      "cta_h": "Не намерихте отговор?",
+      "cta_p": "Свържете се с нас и ще ви помогнем.",
+      "cta1": "Контакти"
+    },
+    "en": {
+      "title": [
+        "FAQ – Valoris Asset",
+        "Answers to frequently asked questions about the process, pricing and validity of valuations."
+      ],
+      "eye": "Help",
+      "h1": "Frequently Asked Questions",
+      "hp": "Answers to the most common questions about our services.",
+      "q": [
+        [
+          "What is the valuation process?",
+          "After your enquiry we prepare a quote, carry out an inspection, analyse the data and deliver the completed report within the agreed deadline."
+        ],
+        [
+          "How does the on-site inspection work?",
+          "Our appraiser visits the site at an agreed time, takes photos and records the necessary features and dimensions."
+        ],
+        [
+          "How much does a valuation cost?",
+          "It depends on the type and characteristics of the asset. See our pricing or contact us for a quote."
+        ],
+        [
+          "How long is a valuation valid?",
+          "Usually 6 months, but this can vary depending on the purpose and the requirements of the institution."
+        ],
+        [
+          "Can one valuation be used in several places?",
+          "In most cases yes, if its purpose and basis match the requirements of the relevant institution."
+        ],
+        [
+          "What methodology do you use?",
+          "Market, cost and income approaches according to the asset and purpose, in line with international standards."
+        ]
+      ],
+      "cta_h": "Didn't find an answer?",
+      "cta_p": "Contact us and we'll help.",
+      "cta1": "Contact"
+    }
+  },
+  "contact": {
+    "bg": {
+      "title": [
+        "Контакти – Valoris Asset",
+        "Свържете се с Valoris Asset за безплатна консултация и индивидуална оферта за оценка."
+      ],
+      "eye": "Контакти",
+      "h1": "Свържете се с нас",
+      "hp": "Готови сме да отговорим на вашите въпроси и да изготвим оферта.",
+      "ih": "Информация за контакт",
+      "addr": "Адрес",
+      "addrv": "гр. София, ул. „Примерна\" № 1<br>(заменете с вашия адрес)",
+      "ph": "Телефон",
+      "em": "Имейл",
+      "wh": "Работно време",
+      "whv": "Понеделник – Петък: 9:00 – 18:00",
+      "fh": "Изпратете запитване",
+      "f_name": "Име *",
+      "f_namep": "Вашето име",
+      "f_email": "Имейл *",
+      "f_phone": "Телефон",
+      "f_type": "Вид оценка",
+      "opts": [
+        "Недвижим имот",
+        "Бизнес оценка",
+        "Машини и съоръжения",
+        "Земеделска земя",
+        "Друго"
+      ],
+      "f_msg": "Съобщение *",
+      "f_msgp": "Опишете обекта за оценяване...",
+      "f_btn": "Изпрати запитване",
+      "e_name": "Моля, въведете вашето име.",
+      "e_email": "Моля, въведете валиден имейл.",
+      "e_msg": "Моля, въведете съобщение.",
+      "note": "* Полетата са задължителни. Формата се валидира в браузъра; за реално изпращане я свържете с вашия сървър или имейл услуга със server-side валидация."
+    },
+    "en": {
+      "title": [
+        "Contact – Valoris Asset",
+        "Contact Valoris Asset for a free consultation and an individual valuation quote."
+      ],
+      "eye": "Contact",
+      "h1": "Get in touch",
+      "hp": "We're ready to answer your questions and prepare a quote.",
+      "ih": "Contact information",
+      "addr": "Address",
+      "addrv": "1 Primerna St., Sofia<br>(replace with your address)",
+      "ph": "Phone",
+      "em": "Email",
+      "wh": "Working hours",
+      "whv": "Monday – Friday: 9:00 – 18:00",
+      "fh": "Send an enquiry",
+      "f_name": "Name *",
+      "f_namep": "Your name",
+      "f_email": "Email *",
+      "f_phone": "Phone",
+      "f_type": "Valuation type",
+      "opts": [
+        "Real estate",
+        "Business valuation",
+        "Machinery & equipment",
+        "Agricultural land",
+        "Other"
+      ],
+      "f_msg": "Message *",
+      "f_msgp": "Describe the asset to be valued...",
+      "f_btn": "Send enquiry",
+      "e_name": "Please enter your name.",
+      "e_email": "Please enter a valid email.",
+      "e_msg": "Please enter a message.",
+      "note": "* Required fields. The form is validated in the browser; to actually send it, connect it to your server or email service with server-side validation."
+    }
+  },
+  "notfound": {
+    "bg": [
+      "Страницата не е намерена – Valoris Asset",
+      "404 – страницата не е намерена",
+      "Грешка 404",
+      "Страницата не е намерена",
+      "Възможно е връзката да е остаряла или преместена.",
+      "Към началото"
+    ],
+    "en": [
+      "Page not found – Valoris Asset",
+      "404 – page not found",
+      "Error 404",
+      "Page not found",
+      "The link may be outdated or moved.",
+      "Back to home"
+    ]
+  }
+}

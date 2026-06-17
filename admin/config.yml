@@ -1,0 +1,95 @@
+# ============================================================
+# Sveltia CMS configuration  (admin panel at /admin/)
+# Docs: https://github.com/sveltia/sveltia-cms
+# ------------------------------------------------------------
+# 1) Replace OWNER/REPO below with your GitHub repo (e.g. ivan/valoris-asset).
+# 2) Authentication on GitHub Pages needs a tiny free OAuth proxy:
+#       https://github.com/sveltia/sveltia-cms-auth  (deploy on Cloudflare Workers)
+#    then uncomment `base_url` and set it to your Worker URL.
+#    (Simplest alternative: log in with a GitHub Personal Access Token.)
+# ============================================================
+backend:
+  name: github
+  repo: OWNER/REPO          # <-- CHANGE THIS
+  branch: main
+  # base_url: https://YOUR-WORKER.workers.dev   # <-- uncomment after deploying the auth worker
+
+# Edits commit to content.json -> the GitHub Action rebuilds & redeploys automatically.
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+# The whole site lives in one JSON file. This form exposes the most-edited sections.
+# Sveltia preserves keys it doesn't show, but do a test edit to confirm before bulk edits,
+# and extend the fields below following the same pattern for full coverage.
+collections:
+  - name: content
+    label: "Site content"
+    editor: { preview: false }
+    files:
+      - name: site
+        label: "① Company info (brand, phone, email)"
+        file: "content.json"
+        fields:
+          - { name: site, label: "Company", widget: object, fields: [
+              { name: brand, label: "Brand name", widget: string },
+              { name: url, label: "Site URL", widget: string },
+              { name: phone_display, label: "Phone (shown)", widget: string },
+              { name: phone_link, label: "Phone (tel: link)", widget: string },
+              { name: email, label: "Email", widget: string } ] }
+
+      - name: home_bg
+        label: "② Home page (Bulgarian)"
+        file: "content.json"
+        fields:
+          - name: home
+            label: "Home"
+            widget: object
+            fields:
+              - name: bg
+                label: "Български"
+                widget: object
+                fields:
+                  - { name: eyebrow, label: "Eyebrow", widget: string }
+                  - { name: h1, label: "Headline (HTML allowed)", widget: string }
+                  - { name: lead, label: "Intro paragraph", widget: text }
+                  - { name: cta1, label: "Primary button", widget: string }
+                  - { name: cta2, label: "Secondary button", widget: string }
+
+      - name: home_en
+        label: "③ Home page (English)"
+        file: "content.json"
+        fields:
+          - name: home
+            label: "Home"
+            widget: object
+            fields:
+              - name: en
+                label: "English"
+                widget: object
+                fields:
+                  - { name: eyebrow, label: "Eyebrow", widget: string }
+                  - { name: h1, label: "Headline (HTML allowed)", widget: string }
+                  - { name: lead, label: "Intro paragraph", widget: text }
+                  - { name: cta1, label: "Primary button", widget: string }
+                  - { name: cta2, label: "Secondary button", widget: string }
+
+      - name: contact
+        label: "④ Contact details (BG + EN)"
+        file: "content.json"
+        fields:
+          - name: contact
+            label: "Contact"
+            widget: object
+            fields:
+              - { name: bg, label: "Български", widget: object, fields: [
+                  { name: h1, label: "Heading", widget: string },
+                  { name: hp, label: "Subheading", widget: string },
+                  { name: addrv, label: "Address (HTML allowed)", widget: text },
+                  { name: whv, label: "Working hours", widget: string } ] }
+              - { name: en, label: "English", widget: object, fields: [
+                  { name: h1, label: "Heading", widget: string },
+                  { name: hp, label: "Subheading", widget: string },
+                  { name: addrv, label: "Address (HTML allowed)", widget: text },
+                  { name: whv, label: "Working hours", widget: string } ] }
+# ---- To expand: add more "files:" entries (e.g. faq, ceni, about, services)
+#      pointing at the same content.json, with fields mirroring the JSON structure. ----
