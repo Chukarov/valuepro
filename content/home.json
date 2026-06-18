@@ -38,17 +38,17 @@
           "label": "години опит"
         },
         {
-          "value": "15000",
+          "value": "150",
           "suffix": "+",
           "label": "изготвени оценки"
         },
         {
-          "value": "100",
+          "value": "5",
           "suffix": "+",
           "label": "оценители в мрежата"
         },
         {
-          "value": "28",
+          "value": "12",
           "suffix": "",
           "label": "области покритие"
         }
@@ -165,17 +165,17 @@
           "label": "years of experience"
         },
         {
-          "value": "15000",
+          "value": "150",
           "suffix": "+",
           "label": "valuations completed"
         },
         {
-          "value": "100",
+          "value": "5",
           "suffix": "+",
           "label": "appraisers in the network"
         },
         {
-          "value": "28",
+          "value": "12",
           "suffix": "",
           "label": "regions covered"
         }
@@ -257,8 +257,8 @@
   },
   "home_title": {
     "bg": {
-      "title": "Valoris Asset – Експертни пазарни оценки в България",
-      "desc": "Независими пазарни оценки на недвижими имоти, бизнес, машини и земеделска земя. Над 20 години опит и национална оценителска мрежа."
+      "title": "",
+      "desc": ""
     },
     "en": {
       "title": "Valoris Asset – Expert market valuations in Bulgaria",
